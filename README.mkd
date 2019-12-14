@@ -1,0 +1,42 @@
+# Applied Data Science Portfolio
+*Emilio Caba Batuecas - Energy Dwelling Insights*
+
+This portfolio contains...
+
+<br>
+
+## Contents
+
+### DataCamp courses
+Datacamp courses done
+
+<br>
+
+### Project Development
+- #### Research Project
+  - Task Definition
+  - Evaluation
+  - Conclusion
+  - Planning
+  
+- #### Domain Knowledge
+  - Introduction of the subject field
+  - Literature research
+  - Explanation of terminology, jargon and definitions
+  
+- #### Data Preprocessing
+  - Data exploration
+  - Data cleaning
+  - Data preparation
+  - Data visualization
+  
+- #### Predictive Analytics
+  - Selecting a model
+  - Configuring a model
+  - Training a model
+  - Evaluationg a model
+  - Visualizing the outcome of a model
+  
+- #### Communication
+  - Presentations
+  - Writing paper

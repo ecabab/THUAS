@@ -8,40 +8,58 @@ This portfolio contains...
 ## Contents
 
 ### DataCamp courses
-Datacamp courses done
+During the Applied Data Sceince minor, we have been asked to completed some DataCamp courses as a complement to enrich our knowledge about data science. All of them were completed as requested on time as shown below:
 
-<br>
+![Image of Assignments](https://github.com/ecabab/THUAS/blob/master/Images/DataCamp_Assignments.png)
+
+Apart from those mandatory courses, I have also started some career tracks as I find them really interestin. These are the following:
+
+* **Python Programmer (52 hours)**: 9 out of 13 courses completed.
+* **Data Analyst with Python (60 hours)**: 8 out of 16 courses completed.
+* **Data Scientist with Python (100 hours)**: 13 out of 26 courses completed.
+* **Machine Learning Scientist with Python (93 hours)**: 8 out of 23 courses completed.
+
+![Image of Tracks](https://github.com/ecabab/THUAS/blob/master/Images/DataCamp_CareerTracks.png)
+
+
+
 
 ### Project Development
-- #### Domain Knowledge
-  - Introduction of the subject field
+* #### Domain Knowledge
+  * Introduction of the subject field
+  * Literature research
+  * Explanation of terminology, jargon and definitions
   
-As noted previously, the data that we have analyzed in this project comes from the smart meters which are installed in every dwelling from two different neighborhoods. Apart from those sources, we have also used weather data from the KNMI (Koninklijk Nederlands Meteorologisch Instituut).
+* #### Research Project
+  * Task Definition
+  * Evaluation
+  * Conclusion
+  * Planning
   
-  - Literature research
-  - Explanation of terminology, jargon and definitions
-  
-- #### Research Project
-  - Task Definition
-  - Evaluation
-  - Conclusion
-  - Planning
-  
-- #### Data Preprocessing
-  - **Data exploration**
+* #### Data Preprocessing
+  * **Data exploration**
     During the development of this project, we will be using data from three different resources:
-	  - _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
-	  - _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consist of 120 houses. This dataset is not labeled, we will use it to feed our models with different data and see how they behave.
-	  - _**KNMI**_: In order to get more insight about the dwellings characteristics, we will use weather data to imporive our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.
+	  * _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
+	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consist of 120 houses. This dataset is not labeled, we will use it to feed our models with different data and see how they behave.
+	  * _**KNMI**_: In order to get more insight about the dwellings characteristics, we will use weather data to imporive our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.
 
-    #### _**Groene Mient**_
-    The data from _Groene Mient_ comes inside an excel file which consists of two different sheets:
-    - **_Productie_ sheet**: It contains the energy delivery read by the smart meter.
-    - **_Consumptie_ sheet**: It contains the energy consumption read by the smart meter.
-    Both of the sheets contain some other information about the dwelling that we will explain later.
-  - Data cleaning
-  - Data preparation
-  - Data visualization
+	    #### _**Groene Mient**_
+	    The data from _Groene Mient_ comes inside an excel file which consists of two different sheets:
+	    
+		* **_Productie_ sheet**: It contains the energy delivery read by the smart meter.
+		* **_Consumptie_ sheet**: It contains the energy consumption read by the smart meter.
+		
+		Both of the sheets contain some other information about the dwellings that we will explain later.
+		
+		Link to the EDA notebook !!
+		
+		Once we know that here are some things to fix in the dataset, let's do it.
+		Explain those things !!
+    
+    
+  * **Data cleaning**
+  * **Data preparation**
+  * **Data visualization**
   
 - #### Predictive Analytics
   - Selecting a model

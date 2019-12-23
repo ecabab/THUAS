@@ -37,9 +37,8 @@ Apart from those mandatory courses, I have also started some career tracks as I 
   * Planning
   
 * #### Data Preprocessing
-  * **Data exploration**
-    
-    	During the development of this project, we will be using data from three different resources:
+  * **Data exploration:**
+    During the development of this project, we will be using data from three different resources:
 	  * _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
 	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consist of 120 houses. This dataset is not labeled, we will use it to feed our models with different data and see how they behave.
 	  * _**KNMI**_: In order to get more insight about the dwellings characteristics, we will use weather data to imporive our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.
@@ -52,7 +51,7 @@ Apart from those mandatory courses, I have also started some career tracks as I 
 		
 		Both of the sheets contain some other information about the dwellings that we will explain later.
 		
-		[Data Exploration of _Groene Mient_ dataset](https://github.com/ecabab/THUAS/blob/master/Notebooks/EDA/1.Data%20Exploration.ipynb)
+		[EDA - Data Exploration of _Groene Mient_ dataset](https://github.com/ecabab/THUAS/blob/master/Notebooks/EDA/1.Data%20Exploration.ipynb)
 		: This notebook contains the data exploration process that has been followed to take a first look to the data. It consists of the following steps:
 		
 		1. We have deleted redundant information and splitted the data into three different datasets: *df_deli*, *df_cons* and *df_info*, which have been exported for the next steps.
@@ -61,9 +60,20 @@ Apart from those mandatory courses, I have also started some career tracks as I 
 		The next step is to clean the dataset.
     
     
-  * **Data cleaning**
-  * **Data preparation**
-  * **Data visualization**
+  * **Data cleaning:** Once we explained the data that we are going to use, we will start cleaning it.
+	
+		[EDA - Data Cleaning](https://github.com/ecabab/THUAS/blob/master/Notebooks/EDA/1.Data%20Exploration.ipynb)
+		: This notebook contains the data cleaning process that has been followed to keep the usable data. It consists of the following steps:
+		
+		1. We have checked whether a record is an outlier or not by using the following requisites:
+			*  **Energy delivery**: These solar panels are able to produce a maximum of 250 watts/hour (0.25 kwh) each one. Since the smart meter sums up all the energy delivery every 15 minutes, we will compute what is the maximum production for each dwelling taking into account the number of solar panels. Then, every value over the maximum will be set as an outlier.
+
+\begin{align}
+outlier > 0.25kwh * 0.25h * num\_solar\_panels
+\end{align}
+  
+  * **Data preparation:**
+  * **Data visualization:**
   
 - #### Predictive Analytics
   - Selecting a model

@@ -103,13 +103,13 @@ Apart from those mandatory courses, I have also started some career tracks as I 
 		
 		Both of the sheets contain some other information about the dwellings that we will explain later.
 		
-		[EDA - Data Exploration of _Groene Mient_ dataset](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%201.%20Data%20Exploration.ipynb)
+	[EDA - Data Exploration of _Groene Mient_ dataset](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%201.%20Data%20Exploration.ipynb)
 		: This notebook contains the data exploration process that has been followed to take a first look to the data. It consists of the following steps:
 		
-		1. We have deleted redundant information and splitted the data into three different datasets: *df_deli*, *df_cons* and *df_info*, which have been exported for the next steps.
-		2. We have found outliers in the data that we will have to handle.
+	1. We have deleted redundant information and splitted the data into three different datasets: *df_deli*, *df_cons* and *df_info*, which have been exported for the next steps.
+	2. We have found outliers in the data that we will have to handle.
 		
-		The next step is to clean the dataset.
+	The next step is to clean the dataset.
     
     
   * **Data cleaning:** Once we explained the data that we are going to use, we will start cleaning it.

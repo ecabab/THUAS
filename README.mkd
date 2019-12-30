@@ -25,9 +25,63 @@ Apart from those mandatory courses, I have also started some career tracks as I 
 
 #### Own contribution
 
+From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Energy Dwelling Insights_ as part of a team of six people.<br>
+The main goal of this project was to get as much insight as possible from 33 dwellings of a neighbourhood called _Groene Mient_. Specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of people living there and the number of solar panels.<br>
+The way to achieve this goal was by analysing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
+
+One of the first indispensable tasks in every data science project is to clean the raw data. As I had previously taken a course about data cleaning, I started working on it while the rest of the group were taking some courses about it on _DataCamp_. Once they finished learning, I shared with them the knowledge I had about data cleaning and the progress so far that I had done.<br>
+Apart from the data cleaning process, each one of us chose a different clustering algorithm to implement on the cleaned data. In my case, I chose _K-Nearest Neighbour_.
+
+In order to get some domain knowledge about this topic, I did some research about smart meters and energy in The Netherlands by reading research papers and similar projects.<br>
+For the data cleaning process, I applied the methods I previously learnt which are the following: looking for outliers, looking for blank spaces, filling blank spaces if possible, and delete wrong data. We also added data from other resources (weather data from _KNMI_) and created dummy variables.<br>
+Once the data was cleaned, I applied the _K-Nearest Neighbour_ classifier by using different configuration params to find out which ones fitted the better. I created three models, one of them for each target feature (heating system, number of people and number of solar panels).
+
+My colleges and me did a good data cleaning process and we use this data to feed all the different models and algorithms that we tried out.<br>
+About the _K-Nearest Neighbours_, I implemented it by using different configuration params, but it did not give us enough good results even though they were better than the _Logistic Regression_ and the _Support Vector Machine_ results. However, it did not lead the accuracy of the _LSTM_ model.
+
+When cleaning the data, I learned to analyse and extract the usable data from a big dataset. I used different methods with the purpose of apply the best for this case and acquired new cleaning skills.<br>
+Furthermore, I learned how to build, configure, train and evaluate a model by applying the _K-Nearest Neighbours_, which can be applicable for any other model. Apart from that, now I am able to analyse and compare different models and choose which one fits better on each case.
+
+
 #### Own learning
 
+From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called Energy Dwelling Insights as part of a team of six people.<br>
+The purpose of this minor was to learn and apply the basics of data science to a real project in The Netherlands, apart from researching and explaining the results in a research paper.
+
+The main goal of the course was to learn as much as possible about data science. The courses consisted of the following subtopics: machine learning (exploratory data analysis, data, validation and evaluation), research and neuronal networks.<br>
+As we were working on a real project, we also had to learn how work in group and with our product owner, hence we had to learn some teamwork skills like _SCRUM_ and communicative skills.
+
+With the objective to learn as much as possible, I had different ways to get the knowledge.
+We had classes every Monday where the teacher explained us different topics about data science, they also provide us with tutorial notebooks in which we could go over the concepts and other notebooks to practice. <br>
+Besides the presential classes, we were also subscribed to DataCamp. We had to take some mandatory courses with the aim of learning the basics. Apart from those, I also took some other courses to learn more about data science.<br>
+While we were learning, we applied all the new concepts to the project we were working on and also contrasting them with the research projects that were previously done in this topic.
+
+The combination of different knowledge resources resulted in a great learning, which allowed me to get all the basics in the different fields of data science, but also to get deeper knowledge in the topic of our project and the teamwork and communicative skills.
+By now, I am able to apply the following machine learning algorithms: _Linear Regression, Logistic Regression, Support Vector Machine, K-Nearest Neighbours, K-Means and the LSTM RNN_.<br>
+Apart from that, I also learned how to research in official documents, take advantage of the work that is already done, apply it to our project and write a research paper based on the new development and results that we have done.
+
+At the beginning of the course, I just were able to do some cleaning on the data based on different courses that I previously took. By taking this minor I have learned how to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project.<br>
+Besides the technical knowledge, I have also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the SCRUM methodology.
+
+
 #### Group project
+
+From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Energy Dwelling Insights_ as part of a team of six people.<br>
+The main goal of this project was to get as much insight as possible from 33 dwellings of a neighbourhood called _Groene Mient_, specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of people living there and the number of solar panels.<br>
+The way to achieve this goal was by analysing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
+
+In order to achieve this goal, we had to analyse and clean the data received from the smart pumps, try out different algorithms, evaluate and compare them and take out the best results. As a group, we applied the _SCRUM_ methodology by splitting and assigning the tasks to different people.<br>
+The tasks that we did are the following: We all did some research on the topic and share with each other the content of the papers read; we also cleaned the data by using different approaches. About the machine learning, _Logistic Regression_ and _K-Means_ were implemented by Teo, the _Support Vector Machine_ was implemented by Merel and Rajeev, I implemented the _K-Nearest Neighbours_ and Santiago and Olivier implemented the _LSTM RNN_.
+We all together wrote the research paper and presented the improvements of the project development in class every week.
+
+We all together cleaned the data by using different approaches (deleting all the data from some dwellings, deleting blank spaces, filling the blank spaces…). We started clustering the data by using _TSNE_ and _PCA_, but we did not get good results, so we started implementing the clustering algorithms mentioned above.<br>
+From the K-means we could not get any information about what was happening on the clustering. Then we started with _LR_, _SVM_ and _KNN_, we set different configuration params on each algorithm in order to get the best results, we could get some results but not good enough to set the as final results. Finally, we implemented the _LSTM RNN_, which gave us the best results, it fitted the best because this kind of _RNN_ takes care about the timestamp and learns through the time.
+
+The results that we got when we wanted to predict the heating system, number of people and number of solar panels are the following: _Logistic Regression_: 52%, 38% and 46%; _Support Vector Machine_: 63%, 42% and 56%; _K-Nearest Neighbours_: 63%, 41% and 54%; _LSTM_: 96%, 88% and 81%. As we can see, the _LSTM RNN_ gave us the best results.<br>
+In general, we all did a good work on the project by helping each other and solving the challenges set on each moment.
+
+When developing the whole project, I learned to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project, including the writing of the research paper.<br>
+Besides the technical knowledge, I also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the _SCRUM_ methodology.
 
 
 ### Project Development

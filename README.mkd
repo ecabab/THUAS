@@ -141,7 +141,9 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
   * **Evaluation**
 
+  	With the purpose af achieving this goal, we will develop a complete study about the dwellings with the informatiion gathered by the smart meters and the weather data which comes from the _KNMI_.
   	
+  	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
   
   * **Conclusion**
 

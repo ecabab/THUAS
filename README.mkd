@@ -1,9 +1,12 @@
 # Applied Data Science Portfolio
-*Emilio Caba Batuecas - Energy Dwelling Insights*
+*Emilio Caba Batuecas - Dwelling Energy Insights*
 
-This portfolio contains...
+My name is Emilio Caba, and this portfolio is a representation of all that I have learned and accomplished while taking the Applied Data Science minor in The Hague University of Applied Sciences, placed in The Hague (The Netherlands).
 
-<br>
+The main goal of the course was to be able to carry out a real data science project in teams of six people. With the purpose to accomplish this goal, we have taken presencial lectures and online courses in DataCamp. The project where I have participated was called _Dwelling Energy Insights_ and its development is explained in this portfolio.
+
+The team member were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić, Merel Kreszner, Rajeev Kalloe and me, and the product owner was Dr. T.B. Salcedo Rahola.
+
 
 ## Content
 
@@ -25,7 +28,7 @@ Apart from those mandatory courses, I have also started some career tracks as I 
 
 #### Own contribution
 
-From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Energy Dwelling Insights_ as part of a team of six people.<br>
+From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
 The main goal of this project was to get as much insight as possible from 33 dwellings of a neighbourhood called _Groene Mient_. Specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of people living there and the number of solar panels.<br>
 The way to achieve this goal was by analysing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
 
@@ -45,7 +48,7 @@ Furthermore, I learned how to build, configure, train and evaluate a model by ap
 
 #### Own learning
 
-From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called Energy Dwelling Insights as part of a team of six people.<br>
+From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
 The purpose of this minor was to learn and apply the basics of data science to a real project in The Netherlands, apart from researching and explaining the results in a research paper.
 
 The main goal of the course was to learn as much as possible about data science. The courses consisted of the following subtopics: machine learning (exploratory data analysis, data, validation and evaluation), research and neuronal networks.<br>
@@ -66,7 +69,7 @@ Besides the technical knowledge, I have also learned how to deal with my college
 
 #### Group project
 
-From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Energy Dwelling Insights_ as part of a team of six people.<br>
+From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
 The main goal of this project was to get as much insight as possible from 33 dwellings of a neighbourhood called _Groene Mient_, specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of people living there and the number of solar panels.<br>
 The way to achieve this goal was by analysing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
 
@@ -84,19 +87,19 @@ When developing the whole project, I learned to carry out a complete exploratory
 Besides the technical knowledge, I also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the _SCRUM_ methodology.
 
 
-### Project Development
+### Project Development (_Dwelling Energy Insights_)
 * #### Domain Knowledge
   * **Introduction of the subject field**
 
-  	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050 [1]. By avoiding the use and collection of natural gasses, CO2 emissions can be ceased, and earthquakes can be disposed. Accordingly, the importance of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the build environment is responsible for 28% of the energy usage. Approximately 61% of these buildings still use natural gas for heating [2]. The technologies that currently exist which could help us reduce the use of natural gasses, are easier to implement in the build environment rather than the industry, since the industry will look at what’s best for business and not what’s best for society. Within the industry, there is no clear profitability for these technologies [3].
+  	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. By avoiding the use and collection of natural gasses, CO2 emissions can be ceased, and earthquakes can be disposed. Accordingly, the importance of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the build environment is responsible for 28% of the energy usage. Approximately 61% of these buildings still use natural gas for heating. The technologies that currently exist which could help us reduce the use of natural gasses, are easier to implement in the build environment rather than the industry, since the industry will look at what’s best for business and not what’s best for society. Within the industry, there is no clear profitability for these technologies [3].
 
-	To reduce the 61% usage of gas in buildings, some new and renovated dwellings were already constructed at NZEB standard. The nearly zero or very low amount of energy required should be covered to a very significant extent from renewable sources, including sources produced on-site or nearby. The power that the dwellings require from the net, is only electrical [4]. The electricity energy use and production of these dwellings differs a lot from the average Dutch dwellings. The electricity energy use and production patterns of NZEB dwellings have a large variety because of the variety of heating and energy production systems used inside the dwellings.
+	To reduce the 61% usage of gas in buildings, some new and renovated dwellings were already constructed at NZEB standard. The nearly zero or very low amount of energy required should be covered to a very significant extent from renewable sources, including sources produced on-site or nearby. The power that the dwellings require from the net, is only electrical. The electricity energy use and production of these dwellings differs a lot from the average Dutch dwellings. The electricity energy use and production patterns of NZEB dwellings have a large variety because of the variety of heating and energy production systems used inside the dwellings.
 
 	Since these dwellings have such different behaviour and patterns, new approaches are needed to be able to take technical / political decisions about what type of technologies to promote. Government-organisations can therefore use this information to create/improve (existing) policies. To set up these policies, information about dwelling energy usage and production can be collected from the dwellings. A good technique to collect that information is via smart meters.
 
-	By 2020, 80% of the households in The Netherlands will have a smart meter. A smart meter measures the amount of energy taken from and sent to the net [5, 6]. This data, in combination with publicly available data, could allow determining dwelling characteristics and the energy usage behaviour of its residents. This information could be used to optimize the current dwellings energy systems, gain more knowledge about energy use patterns and to propose possible improvements with the goal to reduce CO2 emissions related to energy use.
+	By 2020, 80% of the households in The Netherlands will have a smart meter. A smart meter measures the amount of energy taken from and sent to the net. This data, in combination with publicly available data, could allow determining dwelling characteristics and the energy usage behaviour of its residents. This information could be used to optimize the current dwellings energy systems, gain more knowledge about energy use patterns and to propose possible improvements with the goal to reduce CO2 emissions related to energy use.
 
-	Previous research shows insights about household electricity consumption and CO2 emissions on dwellings in the Netherlands [7], where with this information, behavioural patterns have been formed based on the characteristics of dwellings and electricity consumption [8, 9]. Another research proves that the use of machine learning algorithms can be used to forecast residential gas consumption based on energy consumption data and weather data [10].
+	Previous research shows insights about household electricity consumption and CO2 emissions on dwellings in the Netherlands, where with this information, behavioural patterns have been formed based on the characteristics of dwellings and electricity consumption. Another research proves that the use of machine learning algorithms can be used to forecast residential gas consumption based on energy consumption data and weather data.
 	
   * **Literature research**
 
@@ -105,42 +108,61 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	 
 	We have found several papers that were on the topic of energy usage in dwellings, such as: 
 	
-	* Energy-efficient houses built according to the energy performance requirements introduced in Denmark in 2006 [1] 
+	* H. Tommerup, J. Rose, S. Svendsen, Energy-efficient houses built according to the energy performance requirements introduced in Denmark in 2006, (2006).
 	
-	* Household electricity consumption and CO2 emissions in the Netherlands: A model-based analysis [2] 
+	* George Papachristos, Household electricity consumption and CO2 emissions in the Netherlands: A model-based analysis, (2014).
 	
-	* Embodied CO2 Emissions in Building Construction Materials of Hellenic Dwellings [3] 
+	* Georgios Syngrosa, Constantinos A. Balaras, Dimitrios G. Koubogiannis, Embodied CO2 Emissions in Building Construction Materials of Hellenic Dwellings, (2017).
 	
-	* Theoretical vs. actual energy consumption of labelled dwellings in the Netherlands: Discrepancies and policy implications [4] 
-	 
+	* D. Majcen, L.C.M. Itard, H. Visscher, Theoretical vs. actual energy consumption of labelled dwellings in the Netherlands: Discrepancies and policy implications, (2012).
 	
-	Next to that, we have also found a paper on smart meters (Smart metering in the Netherlands: What, how, and why [5]). This paper helped us to get more understanding about smart meters.  
-	 
-	
-	Bibliography: 
-	
-	1. H. Tommerup, J. Rose, S. Svendsen, Energy-efficient houses built according to the energy performance requirements introduced in Denmark in 2006, (2006) 
-	
-	2. George Papachristos, Household electricity consumption and CO2 emissions in the Netherlands: A model-based analysis, (2014) 
-	
-	3. Georgios Syngrosa, Constantinos A. Balaras, Dimitrios G. Koubogiannis, Embodied CO2 Emissions in Building Construction Materials of Hellenic Dwellings, (2017) 
-	
-	4. D. Majcen, L.C.M. Itard, H. Visscher, Theoretical vs. actual energy consumption of labelled dwellings in the Netherlands: Discrepancies and policy implications, (2012) 
-	
-	5. Pol Van Aubel & Erik Poll, Smart metering in the Netherlands: What, how, and why, (2019) 
+	Next to that, we have also found a paper on smart meters (Pol Van Aubel & Erik Poll, Smart metering in the Netherlands: What, how, and why, (2019)). This paper helped us to get more understanding about smart meters.
   
   * **Explanation of terminology, jargon and definitions**
+
+  	**Smart meter**
+  	
+  	Our dataset contains energy delivery and consumption data from smart meters, which are installed in every dwelling in the Groene Mient. A smart meter is a digital gas and electricity meter, which can be monitored constantly. They have replaced the analog gas and electricity meter.   
+
+	Smart meters measure the current flow and voltage periodically. Adding these numbers will give the used power. The gas consumption is measured similarly. A In Home Display (IHD) is connected to the meters and can be used to show your current power and gas consumption and how much it costs. This information can be used to reduce the electricity and gas consumption.   
+
+	The advantages of using a smart meter are:  
+
+	* You don’t have to manually read the meter every month to enter the meter readings
+	* Customers can monitor their power and gas consumption easily.
+	* Your yearly bill will be accurate because the consumption is constantly monitored and not entered manually.
   
 * #### Research Project
   * **Task definition**
   
 	This research focuses on dwellings which are part of the build environment to gain insights in the energy delivery and consumption, because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical, is because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
 
-	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many people are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data [11]. 
+	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many people are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data. 
 
   * **Evaluation**
+
+  	
+  
   * **Conclusion**
+
+  	In this part of the chapter the results of the relevant algorithms used are discussed.  
+
+	By using Logistic Regression (LR), Support Vector Machine (SVM) and K-Nearest Neighbours (KNN) algorithms, the best prediction results that we got were 63% of accuracy for the heating system, 42% of accuracy for the number of people and 56% of accuracy for the number of solar panels. So, when presenting one register of the dataset, the algorithms can tell us about 63% for sure which heating system is used by that dwelling. This means is it only partly possible to gain insight of the characteristics of the dwellings using the data from smart meters. 
+
+	We decided to use Recurrent Neural Network (RNN), specifically the Long short-term memory (LSTM) one, to see if results are any different. Here we managed to get an accuracy of 96% for the heating system, 88% for the number of people and 81% for the number of solar panels. With the LSTM algorithm we can find the answer to the characteristics of the dwelling like what kind of heating system is used, the amount of people living in the dwelling and the number of solar panels installed in that dwelling. Considered that companies search for a minimum of 95% accuracy, we can now answer the research question about the heating system type installed in the dwellings, for the other characteristics, there is still work to be done.
+
+	To test the outcomes of the model, an excel file had been created showing the amount of successes and errors on the data using the LSTM. For the test, we chose randomly some dwellings that fit the different characteristics, for those dwellings we took the first two days of each month and the results are shown in the table below, where green cells mean that the prediction is correct whereas the red ones mean that the prediction is incorrect.
+	
+	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Testing_LSTM.png)
+  
   * **Planning**
+
+  	During the project development we have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
+  	
+  	
+  	The Trello dashboard consisted of 4 different lists (_To Do, In Progress, Done and To Refine_). At the end of every sprint a new backlog is defined and added to the list _To Refine_. The beginning of the next sprint a meeting decides what will be worked on during the sprint and moved to the list _To Do_. The tasks in the _To Do_ list will be assigned to certain persons in the team. When working on it the task will be moved to the list _In Progress_ and when done to the list _Done_. 
+  	
+  	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Trello_dashboard.png)
   
 * #### Data Preprocessing
   * **Data exploration:**
@@ -213,13 +235,13 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	* Visualization of the weather data from the _KNMI_.
   	* Visualization of the correlation matrix of the full dataset.
   
-- #### Predictive Analytics
+* #### Predictive Analytics
 
 	Once we have cleaned and prepared the data to be inserted in the models, we are going to create the models based on the following supervised classification algorithms:
-	- Logistic Regression.
-	- Support Vector Machine.
-	- K-Nearest Neighbors.
-	- Long short-term memory recurrent neural network.
+	* Logistic Regression.
+	* Support Vector Machine.
+	* K-Nearest Neighbors.
+	* Long short-term memory recurrent neural network.
 
 	As we said before, we have created three different datasets based on the time interval (hourly, daily and weekly). We have tried all of them and the best results comes when we use **weekly data**, so we will just show the models built based on this approach.
 	
@@ -237,8 +259,33 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	* [PA - LSTM RNN](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%204.%20LSTM%20RNN.ipynb)
 	: This notebook contains the implementation of the Long short-term memory recurrent neural network using the weekly summed data.
 	
+	These are the global results of every model that we have applied to the data:
+	
+	![Image of Results](https://github.com/ecabab/THUAS/blob/master/Images/Final_Results.png)
+	
+	As we can see, the model which got the best results is the LSTM RNN, this is because this neuronal network takes into account the previous results while it is learning. Furthermore, it also relates the outputs with the timestamp, which is crucial in our project since our data goes through the time.
 	
   
-- #### Communication
-  - **Presentations**
-  - **Writing paper**
+* #### Communication
+  * **Presentations**
+
+  	During the whole develompent of the project, we have given several presentations with the purpose of explaining the last improvements that we have made, but also to get feedback and advices about how to continue working on the project. The table below show all the presentation we have given during the course:
+  	
+  	![Image of Presentations](https://github.com/ecabab/THUAS/blob/master/Images/Presentations.png)
+  	
+  	We have given several types of presentations:
+  	
+  	* **Closed presentations:** These presentations were given to our teachers and classmates every Monday. Their main goal was to present the progress that we have made so far during the week and get some feedback.
+
+  	* **Open presentations:** These presentations were given to our teachers, classmates and everyone who wanted to assist. Their main goal was to let people know about we were working on.
+
+  	* **TSNE presentation:** This presentation was given to our teachers and classmates in order to explain them what is the TSNE (t-distributed Stochastic Neighbor Embedding) and how to apply it.
+  	
+  	* **Groene Mient presentation:** This presentation was given in _Groene Mient_ to the people who lives there. The data we have used comes from the dwellings which are placed in this neighbourhood and we went there with the aim of explaining everything about the project development.
+
+  	* **TU Delft presentation:** This presentation was given in the _TU Delft_ to some teachers, researches and people who wanted to assist. The main goal was to get some feedback from the people specialized in energy.
+
+  	From all of these presentations, I gave three closed presentations and the one which took place in _Groene Mient_.
+
+  
+  * **Writing paper**

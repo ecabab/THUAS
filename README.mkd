@@ -164,7 +164,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	
   	The Trello dashboard consisted of 4 different lists (_To Do, In Progress, Done and To Refine_). At the end of every sprint a new backlog is defined and added to the list _To Refine_. The beginning of the next sprint a meeting decides what will be worked on during the sprint and moved to the list _To Do_. The tasks in the _To Do_ list will be assigned to certain persons in the team. When working on it the task will be moved to the list _In Progress_ and when done to the list _Done_. 
   	
-  	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Trello_dashboard.png)
+  	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Trello_dashboard.png)
   
 * #### Data Preprocessing
   * **Data exploration:**

@@ -197,7 +197,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		
 	1. We checked whether a record is an outlier or not by using the following requisites:
 		*  **Energy Delivery**: These solar panels are able to produce a maximum of 250 watts/hour (0.25 kwh) each one. Since the smart meter sums up all the energy delivery every 15 minutes, we will compute what is the maximum production for each dwelling taking into account the number of solar panels. Then, every value over the maximum will be set as an outlier.
-		*  **Energy Consumption:** STILL TO CHECK
+		*  **Energy Consumption:** The maximun consumption that any dwelling can put up with is measured by the following equation, where the kWh are converted to W (0.001) in an interval of 15 minutes (0.25h), where the voltage that the dwelling can handle is 230V and 75A.
 	2. We set those outliers to NaN values in order to know the total amount of useless data on each dwelling.
 	3. We deleted those dwellings which have quite less data (NaN and outliers) than the other ones ('H05', 'H10', 'H11', 'H14', 'H27', 'H30').
 	4. We deleted those records which have at least one NaN value to be able to compare every dwelling.

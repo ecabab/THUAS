@@ -3,24 +3,24 @@
 
 My name is Emilio Caba, and this portfolio is a representation of all that I have learned and accomplished while taking the Applied Data Science minor in The Hague University of Applied Sciences, placed in The Hague (The Netherlands).
 
-The main goal of the course was to be able to carry out a real data science project in teams of six people. With the purpose to accomplish this goal, we have taken presencial lectures and online courses in DataCamp. The project where I have participated was called _Dwelling Energy Insights_ and its development is explained in this portfolio.
+The main goal of the course was to be able to carry out a real data science project in teams of six people. With the purpose to accomplish this goal, we have taken several lectures and online courses in DataCamp. The project where I have participated was called _Dwelling Energy Insights_ and its development is explained in this portfolio.
 
-The team member were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić, Merel Kreszner, Rajeev Kalloe and me, and the product owner was Dr. T.B. Salcedo Rahola.
+The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić, Merel Kreszner, Rajeev Kalloe and me, and the product owner was Dr. T.B. Salcedo Rahola.
 
 
 ## Content
 
 ### DataCamp courses
-During the Applied Data Sceince minor, we have been asked to completed some DataCamp courses as a complement to enrich our knowledge about data science. All of them were completed as requested on time as shown below:
+During the Applied Data Science minor, we have been asked to complete some DataCamp courses as a complement to enrich our knowledge about data science. All of them were completed as requested on time as shown below:
 
 ![Image of Assignments](https://github.com/ecabab/THUAS/blob/master/Images/DataCamp_Assignments.png)
 
-Apart from those mandatory courses, I have also started some career tracks as I find them really interestin. These are the following:
+Apart from those mandatory courses, I have also started some career tracks as I find them really interesting. These are the following:
 
 * **Python Programmer (52 hours)**: 9 out of 13 courses completed.
 * **Data Analyst with Python (60 hours)**: 8 out of 16 courses completed.
 * **Data Scientist with Python (100 hours)**: 13 out of 26 courses completed.
-* **Machine Learning Scientist with Python (93 hours)**: 8 out of 23 courses completed.
+* **Machine Learning Scientist with Python (93 hours)**: 11 out of 23 courses completed.
 
 ![Image of Tracks](https://github.com/ecabab/THUAS/blob/master/Images/DataCamp_CareerTracks.png)
 
@@ -29,21 +29,21 @@ Apart from those mandatory courses, I have also started some career tracks as I 
 #### Own contribution
 
 From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
-The main goal of this project was to get as much insight as possible from 33 dwellings of a neighbourhood called _Groene Mient_. Specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of people living there and the number of solar panels.<br>
-The way to achieve this goal was by analysing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
+The main goal of this project was to get as much insight as possible from 33 dwellings of a neighborhood called _Groene Mient_. Specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of people living there and the number of solar panels.<br>
+The way to achieve this goal was by analyzing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
 
 One of the first indispensable tasks in every data science project is to clean the raw data. As I had previously taken a course about data cleaning, I started working on it while the rest of the group were taking some courses about it on _DataCamp_. Once they finished learning, I shared with them the knowledge I had about data cleaning and the progress so far that I had done.<br>
 Apart from the data cleaning process, each one of us chose a different clustering algorithm to implement on the cleaned data. In my case, I chose _K-Nearest Neighbour_.
 
 In order to get some domain knowledge about this topic, I did some research about smart meters and energy in The Netherlands by reading research papers and similar projects.<br>
-For the data cleaning process, I applied the methods I previously learnt which are the following: looking for outliers, looking for blank spaces, filling blank spaces if possible, and delete wrong data. We also added data from other resources (weather data from _KNMI_) and created dummy variables.<br>
+For the data cleaning process, I applied the methods I previously learned which are the following: looking for outliers, looking for blank spaces, filling blank spaces if possible, and delete the wrong data. We also added data from other resources (weather data from _KNMI_) and created dummy variables.<br>
 Once the data was cleaned, I applied the _K-Nearest Neighbour_ classifier by using different configuration params to find out which ones fitted the better. I created three models, one of them for each target feature (heating system, number of people and number of solar panels).
 
-My colleges and me did a good data cleaning process and we use this data to feed all the different models and algorithms that we tried out.<br>
-About the _K-Nearest Neighbours_, I implemented it by using different configuration params, but it did not give us enough good results even though they were better than the _Logistic Regression_ and the _Support Vector Machine_ results. However, it did not lead the accuracy of the _LSTM_ model.
+My colleges and I did a good data cleaning process and we use this data to feed all the different models and algorithms that we tried out.<br>
+About the _K-Nearest Neighbours_, I implemented it by using different configuration params, but it did not give us enough good results even though they were better than the _Logistic Regression_ and the _Support Vector Machine_ results. However, it did not overcome the accuracy of the _LSTM_ model.
 
-When cleaning the data, I learned to analyse and extract the usable data from a big dataset. I used different methods with the purpose of apply the best for this case and acquired new cleaning skills.<br>
-Furthermore, I learned how to build, configure, train and evaluate a model by applying the _K-Nearest Neighbours_, which can be applicable for any other model. Apart from that, now I am able to analyse and compare different models and choose which one fits better on each case.
+When cleaning the data, I learned to analyze and extract the usable data from a big dataset. I used different methods with the purpose of applying the best for this case and acquired new cleaning skills.<br>
+Furthermore, I learned how to build, configure, train and evaluate a model by applying the _K-Nearest Neighbours_, which can be applicable for any other model. Apart from that, now I am able to analyze and compare different models and choose which one fits better on each case.
 
 
 #### Own learning
@@ -51,19 +51,19 @@ Furthermore, I learned how to build, configure, train and evaluate a model by ap
 From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
 The purpose of this minor was to learn and apply the basics of data science to a real project in The Netherlands, apart from researching and explaining the results in a research paper.
 
-The main goal of the course was to learn as much as possible about data science. The courses consisted of the following subtopics: machine learning (exploratory data analysis, data, validation and evaluation), research and neuronal networks.<br>
-As we were working on a real project, we also had to learn how work in group and with our product owner, hence we had to learn some teamwork skills like _SCRUM_ and communicative skills.
+The main goal of the course was to learn as much as possible about data science. The courses consisted of the following subtopics: machine learning (exploratory data analysis, data, validation, and evaluation), research and neuronal networks.<br>
+As we were working on a real project, we also had to learn how to work in a group and with our product owner, hence we had to learn some teamwork skills like _SCRUM_ and communicative skills.
 
 With the objective to learn as much as possible, I had different ways to get the knowledge.
-We had classes every Monday where the teacher explained us different topics about data science, they also provide us with tutorial notebooks in which we could go over the concepts and other notebooks to practice. <br>
-Besides the presential classes, we were also subscribed to DataCamp. We had to take some mandatory courses with the aim of learning the basics. Apart from those, I also took some other courses to learn more about data science.<br>
-While we were learning, we applied all the new concepts to the project we were working on and also contrasting them with the research projects that were previously done in this topic.
+We had classes every Monday where the teacher explained to us different topics about data science, they also provide us with tutorial notebooks in which we could go over the concepts and other notebooks to practice. <br>
+Besides the lectures, we were also subscribed to DataCamp. We had to take some mandatory courses with the aim of learning the basics. Apart from those, I also took some other courses to learn more about data science.<br>
+While we were learning, we applied all the new concepts to the project we were working on and also contrasting them with the research projects that were previously done on this topic.
 
-The combination of different knowledge resources resulted in a great learning, which allowed me to get all the basics in the different fields of data science, but also to get deeper knowledge in the topic of our project and the teamwork and communicative skills.
+The combination of different knowledge resources resulted in great learning, which allowed me to get all the basics in the different fields of data science but also to get deeper knowledge in the topic of our project and the teamwork and communicative skills.
 By now, I am able to apply the following machine learning algorithms: _Linear Regression, Logistic Regression, Support Vector Machine, K-Nearest Neighbours, K-Means and the LSTM RNN_.<br>
 Apart from that, I also learned how to research in official documents, take advantage of the work that is already done, apply it to our project and write a research paper based on the new development and results that we have done.
 
-At the beginning of the course, I just were able to do some cleaning on the data based on different courses that I previously took. By taking this minor I have learned how to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project.<br>
+At the beginning of the course, I just was able to do some cleaning on the data based on different courses that I previously took. By taking this minor I have learned how to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project.<br>
 Besides the technical knowledge, I have also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the SCRUM methodology.
 
 
@@ -91,20 +91,20 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 * #### Domain Knowledge
   * **Introduction of the subject field**
 
-  	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. By avoiding the use and collection of natural gasses, CO2 emissions can be ceased, and earthquakes can be disposed. Accordingly, the importance of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the build environment is responsible for 28% of the energy usage. Approximately 61% of these buildings still use natural gas for heating. The technologies that currently exist which could help us reduce the use of natural gasses, are easier to implement in the build environment rather than the industry, since the industry will look at what’s best for business and not what’s best for society. Within the industry, there is no clear profitability for these technologies [3].
+  	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. By avoiding the use and collection of natural gasses, CO2 emissions can be ceased, and earthquakes can be disposed of. Accordingly, the importance of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the built environment is responsible for 28% of the energy usage. Approximately 61% of these buildings still use natural gas for heating. The technologies that currently exist which could help us reduce the use of natural gasses are easier to implement in the built environment rather than the industry since the industry will look at what’s best for business and not what’s best for society. Within the industry, there is no clear profitability for these technologies [3].
 
-	To reduce the 61% usage of gas in buildings, some new and renovated dwellings were already constructed at NZEB standard. The nearly zero or very low amount of energy required should be covered to a very significant extent from renewable sources, including sources produced on-site or nearby. The power that the dwellings require from the net, is only electrical. The electricity energy use and production of these dwellings differs a lot from the average Dutch dwellings. The electricity energy use and production patterns of NZEB dwellings have a large variety because of the variety of heating and energy production systems used inside the dwellings.
+	To reduce the 61% usage of gas in buildings, some new and renovated dwellings were already constructed at the NZEB standard. The nearly zero or very low amount of energy required should be covered to a very significant extent from renewable sources, including sources produced on-site or nearby. The power that the dwellings require from the net, is only electrical. The electricity energy use and production of these dwellings differ a lot from the average Dutch dwellings. The electricity energy use and production patterns of NZEB dwellings have a large variety because of the variety of heating and energy production systems used inside the dwellings.
 
-	Since these dwellings have such different behaviour and patterns, new approaches are needed to be able to take technical / political decisions about what type of technologies to promote. Government-organisations can therefore use this information to create/improve (existing) policies. To set up these policies, information about dwelling energy usage and production can be collected from the dwellings. A good technique to collect that information is via smart meters.
+	Since these dwellings have such different behavior and patterns, new approaches are needed to be able to take technical/political decisions about what type of technologies to promote. Government-organizations can, therefore, use this information to create/improve (existing) policies. To set up these policies, information about dwelling energy usage and production can be collected from the dwellings. A good technique to collect that information is via smart meters.
 
-	By 2020, 80% of the households in The Netherlands will have a smart meter. A smart meter measures the amount of energy taken from and sent to the net. This data, in combination with publicly available data, could allow determining dwelling characteristics and the energy usage behaviour of its residents. This information could be used to optimize the current dwellings energy systems, gain more knowledge about energy use patterns and to propose possible improvements with the goal to reduce CO2 emissions related to energy use.
+	By 2020, 80% of the households in The Netherlands will have a smart meter. A smart meter measures the amount of energy taken from and sent to the net. This data, in combination with publicly available data, could allow determining dwelling characteristics and the energy usage behavior of its residents. This information could be used to optimize the current dwellings energy systems, gain more knowledge about energy use patterns and to propose possible improvements with the goal to reduce CO2 emissions related to energy use.
 
-	Previous research shows insights about household electricity consumption and CO2 emissions on dwellings in the Netherlands, where with this information, behavioural patterns have been formed based on the characteristics of dwellings and electricity consumption. Another research proves that the use of machine learning algorithms can be used to forecast residential gas consumption based on energy consumption data and weather data.
+	Previous research shows insights about household electricity consumption and CO2 emissions on dwellings in the Netherlands, wherewith this information, behavioral patterns have been formed based on the characteristics of dwellings and electricity consumption. Another research proves that the use of machine learning algorithms can be used to forecast residential gas consumption based on energy consumption data and weather data.
 	
   * **Literature research**
 
-  	During the first week of our project, we started with exploring the domain by doing literature research (see 1.4.1). We have looked at previously published papers that were available at well-known platforms such as ScienceDirect and TU Delft.  
-	We looked at researches that were previously done on subject field, as well as researches that were done on smart meters. We did this to get more insights in previously researched topics that could have helped us to get more understanding about our subject field.   
+  	During the first week of our project, we started by exploring the domain by doing literature research (see 1.4.1). We have looked at previously published papers that were available at well-known platforms such as ScienceDirect and TU Delft.  
+	We looked at researches that were previously done on the subject field, as well as researches that were done on smart meters. We did this to get more insights into previously researched topics that could have helped us to get more understanding of our subject field.   
 	 
 	We have found several papers that were on the topic of energy usage in dwellings, such as: 
 	
@@ -114,9 +114,9 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	* Georgios Syngrosa, Constantinos A. Balaras, Dimitrios G. Koubogiannis, Embodied CO2 Emissions in Building Construction Materials of Hellenic Dwellings, (2017).
 	
-	* D. Majcen, L.C.M. Itard, H. Visscher, Theoretical vs. actual energy consumption of labelled dwellings in the Netherlands: Discrepancies and policy implications, (2012).
+	* D. Majcen, L.C.M. Itard, H. Visscher, Theoretical vs. actual energy consumption of labeled dwellings in the Netherlands: Discrepancies and policy implications, (2012).
 	
-	Next to that, we have also found a paper on smart meters (Pol Van Aubel & Erik Poll, Smart metering in the Netherlands: What, how, and why, (2019)). This paper helped us to get more understanding about smart meters.
+	Next to that, we have also found a paper on smart meters (Pol Van Aubel & Erik Poll, Smart metering in the Netherlands: What, how, and why, (2019)). This paper helped us to get more understanding of smart meters.
   
   * **Explanation of terminology, jargon and definitions**
 
@@ -124,7 +124,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	
   	Our dataset contains energy delivery and consumption data from smart meters, which are installed in every dwelling in the Groene Mient. A smart meter is a digital gas and electricity meter, which can be monitored constantly. They have replaced the analog gas and electricity meter.   
 
-	Smart meters measure the current flow and voltage periodically. Adding these numbers will give the used power. The gas consumption is measured similarly. A In Home Display (IHD) is connected to the meters and can be used to show your current power and gas consumption and how much it costs. This information can be used to reduce the electricity and gas consumption.   
+	Smart meters measure the current flow and voltage periodically. Adding these numbers will give the used power. The gas consumption is measured similarly. An In-Home Display (IHD) is connected to the meters and can be used to show your current power and gas consumption and how much it costs. This information can be used to reduce electricity and gas consumption.   
 
 	The advantages of using a smart meter are:  
 
@@ -135,23 +135,23 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 * #### Research Project
   * **Task definition**
   
-	This research focuses on dwellings which are part of the build environment to gain insights in the energy delivery and consumption, because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical, is because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
+	This research focuses on dwellings which are part of the built environment to gain insights into the energy delivery and consumption because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical is, because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
 
 	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many people are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data. 
 
   * **Evaluation**
 
-  	With the purpose af achieving this goal, we will develop a complete study about the dwellings with the informatiion gathered by the smart meters and the weather data which comes from the _KNMI_.
+  	With the purpose of achieving this goal, we will develop a complete study about the dwellings with the information gathered by the smart meters and the weather data which comes from the _KNMI_.
   	
   	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
   
   * **Conclusion**
 
-  	In this part of the chapter the results of the relevant algorithms used are discussed.  
+  	In this part of the chapter, the results of the relevant algorithms used are discussed.  
 
-	By using Logistic Regression (LR), Support Vector Machine (SVM) and K-Nearest Neighbours (KNN) algorithms, the best prediction results that we got were 63% of accuracy for the heating system, 42% of accuracy for the number of people and 56% of accuracy for the number of solar panels. So, when presenting one register of the dataset, the algorithms can tell us about 63% for sure which heating system is used by that dwelling. This means is it only partly possible to gain insight of the characteristics of the dwellings using the data from smart meters. 
+	By using Logistic Regression (LR), Support Vector Machine (SVM) and K-Nearest Neighbours (KNN) algorithms, the best prediction results that we got were 63% of accuracy for the heating system, 42% of accuracy for the number of people and 56% of accuracy for the number of solar panels. So, when presenting one register of the dataset, the algorithms can tell us about 63% for sure which heating system is used by that dwelling. This means is it only partly possible to gain insight into the characteristics of the dwellings using the data from smart meters. 
 
-	We decided to use Recurrent Neural Network (RNN), specifically the Long short-term memory (LSTM) one, to see if results are any different. Here we managed to get an accuracy of 96% for the heating system, 88% for the number of people and 81% for the number of solar panels. With the LSTM algorithm we can find the answer to the characteristics of the dwelling like what kind of heating system is used, the amount of people living in the dwelling and the number of solar panels installed in that dwelling. Considered that companies search for a minimum of 95% accuracy, we can now answer the research question about the heating system type installed in the dwellings, for the other characteristics, there is still work to be done.
+	We decided to use Recurrent Neural Network (RNN), specifically the Long short-term memory (LSTM) one, to see if results are any different. Here we managed to get an accuracy of 96% for the heating system, 88% for the number of people and 81% for the number of solar panels. With the LSTM algorithm, we can find the answer to the characteristics of the dwelling like what kind of heating system is used, the number of people living in the dwelling and the number of solar panels installed in that dwelling. Considered that companies search for a minimum of 95% accuracy, we can now answer the research question about the heating system type installed in the dwellings, for the other characteristics, there is still work to be done.
 
 	To test the outcomes of the model, an excel file had been created showing the amount of successes and errors on the data using the LSTM. For the test, we chose randomly some dwellings that fit the different characteristics, for those dwellings we took the first two days of each month and the results are shown in the table below, where green cells mean that the prediction is correct whereas the red ones mean that the prediction is incorrect.
 	
@@ -159,10 +159,10 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   
   * **Planning**
 
-  	During the project development we have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
+  	During the project development, we have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
   	
   	
-  	The Trello dashboard consisted of 4 different lists (_To Do, In Progress, Done and To Refine_). At the end of every sprint a new backlog is defined and added to the list _To Refine_. The beginning of the next sprint a meeting decides what will be worked on during the sprint and moved to the list _To Do_. The tasks in the _To Do_ list will be assigned to certain persons in the team. When working on it the task will be moved to the list _In Progress_ and when done to the list _Done_. 
+  	The Trello dashboard consisted of 4 different lists (_To Do, In Progress, Done and To Refine_). At the end of every sprint, a new backlog is defined and added to the list _To Refine_. At the beginning of the next sprint, a meeting decides what will be worked on during the sprint and moved to the list _To Do_. The tasks in the _To Do_ list will be assigned to certain persons in the team. When working on it the task will be moved to the list _In Progress_ and when done to the list _Done_.
   	
   	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Trello_dashboard.png)
   
@@ -170,8 +170,8 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   * **Data exploration:**
     During the development of this project, we will be using data from three different resources:
 	  * _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
-	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consist of 120 houses. This dataset is not labeled, we will use it to feed our models with different data and see how they behave.
-	  * _**KNMI**_: In order to get more insight about the dwellings characteristics, we will use weather data to imporive our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.
+	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consists of 120 houses. This dataset is not labeled, we will use it to feed our models with different data and see how they behave.
+	  * _**KNMI**_: In order to get more insight into the characteristics of the dwelling, we will use weather data to improve our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.
 
 	    #### _**Groene Mient**_
 	    The data from _Groene Mient_ comes inside an excel file which consists of two different sheets:
@@ -182,7 +182,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		Both of the sheets contain some other information about the dwellings that we will explain later.
 		
 	[EDA - Data Exploration of _Groene Mient_ dataset](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%201.%20Data%20Exploration.ipynb)
-		: This notebook contains the data exploration process that has been followed to take a first look to the data. It consists of the following steps:
+		: This notebook contains the data exploration process that has been followed to take the first look at the data. It consists of the following steps:
 		
 	1. We have deleted redundant information and splitted the data into three different datasets: *df_deli*, *df_cons* and *df_info*, which have been exported for the next steps.
 	2. We have found outliers in the data that we will have to handle.
@@ -197,7 +197,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		
 	1. We checked whether a record is an outlier or not by using the following requisites:
 		*  **Energy Delivery**: These solar panels are able to produce a maximum of 250 watts/hour (0.25 kwh) each one. Since the smart meter sums up all the energy delivery every 15 minutes, we will compute what is the maximum production for each dwelling taking into account the number of solar panels. Then, every value over the maximum will be set as an outlier.
-		*  **Energy Consumption:** The maximun consumption that any dwelling can put up with is measured by the following equation, where the kWh are converted to W (0.001) in an interval of 15 minutes (0.25h), where the voltage that the dwelling can handle is 230V and 75A.
+		*  **Energy Consumption:** The maximum consumption that any dwelling can put up with is measured by the following equation, where the kWh is converted to W (0.001) in an interval of 15 minutes (0.25h), where the voltage that the dwelling can handle is 230V and 75A.
 	2. We set those outliers to NaN values in order to know the total amount of useless data on each dwelling.
 	3. We deleted those dwellings which have quite less data (NaN and outliers) than the other ones ('H05', 'H10', 'H11', 'H14', 'H27', 'H30').
 	4. We deleted those records which have at least one NaN value to be able to compare every dwelling.
@@ -208,14 +208,18 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   : This notebook contains the data preparation process that has been followed to set the data that is going to be inserted on the different models. It consists of the following steps:
   
   	1. We will add the weather data from the _KNMI_ to the energy datasets.
-  	2. We will add _dummy variables_ (_hour, day of the weekd, day of the month, week of the month, month and season_) to the energy datasets.
+  	2. We will add _dummy variables_ (_hour, day of the week, day of the month, week of the month, month and season_) to the energy datasets.
   	3. We will compact the data by hour, day and week in order to check which one will fit better the models.
   	4. We will place the data from one dwelling below each other as required by the models.
+
+  	[EDA - Data Preparation for LSTM](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%204.%20Data%20Preparation%20for%20LSTM.ipynb)
+  : This notebook contains the data preparation process that has been followed to set the data that is going to be inserted on the LSTM RNN. This notebook follows a different process because every dataset needs to be balanced.
   
   * **Data explanation:** The data that we are going to use to feed the models consists of the combination of the energy delivery and consumption, the weather data from the _KNMI_ and the _dummy variables_ that have created.
 
   	Apart from that, as we have seen in the previous section, the dataset is indexed by its timestamp and the interval is 15 minutes. We have created three different datasets to check which of them fits the best with the models. These are the following:
   
+  	* 15-min dataset: This dataset has intervals of 15 minutes.
   	* Hourly dataset: This dataset has intervals of 1 hour.
   	* Daily dataset: This dataset has intervals of 1 day.
   	* Weekly dataset: This dataset has intervals of 1 week.
@@ -223,11 +227,11 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	In order to create these new datasets, we have had to modify the data as explained below:
   
   	* The energy delivery and consumption have been summed up.
-  	* The data from the _KNMI_ has been replace by the mean of the interval.
-  	* The dummy variables have been replace by the mode of the interval.
+  	* The data from the _KNMI_ has been replaced by the mean of the interval.
+  	* The dummy variables have been replaced by the mode of the interval.
   
   
-  * **Data visualization:** Once we explained the data, we will visualize it in order to get a better insight of the process that we have followed from the raw data until the data that we will use in the models.
+  * **Data visualization:** Once we explained the data, we will visualize it in order to get a better insight into the process that we have followed from the raw data until the data that we will use in the models.
 
   	[EDA - Data Visualization](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%205.%20Data%20Visualization.ipynb)
   : This notebook contains the data visualization process that has been followed to understand better the EDA (Exploratory Data Analysis) process done before. It consists of the following steps:
@@ -245,7 +249,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	* K-Nearest Neighbors.
 	* Long short-term memory recurrent neural network.
 
-	As we said before, we have created three different datasets based on the time interval (hourly, daily and weekly). We have tried all of them and the best results comes when we use **weekly data**, so we will just show the models built based on this approach.
+	As we said before, we have created four different datasets based on the time interval (15-min, hourly, daily and weekly). We have tried all of them and the best results come when we use **weekly data** for LG, SVM and KNN; and **15-min data** for the LSTM, so we will just show the models built based on this approach.
 	
 	We will predict the **heating system type**, the **amount of people** who lives in the dwelling and the **amount of solar panels** which are installed on the dwelling.
 	
@@ -265,13 +269,13 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	![Image of Results](https://github.com/ecabab/THUAS/blob/master/Images/Final_Results.png)
 	
-	As we can see, the model which got the best results is the LSTM RNN, this is because this neuronal network takes into account the previous results while it is learning. Furthermore, it also relates the outputs with the timestamp, which is crucial in our project since our data goes through the time.
+	As we can see, the model which got the best results is the LSTM RNN, this is because this neuronal network takes into account the previous results while it is learning. Furthermore, it also relates the outputs with the timestamp, which is crucial in our project since our data goes through time.
 	
   
 * #### Communication
   * **Presentations**
 
-  	During the whole develompent of the project, we have given several presentations with the purpose of explaining the last improvements that we have made, but also to get feedback and advices about how to continue working on the project. The table below show all the presentation we have given during the course:
+  	During the whole development of the project, we have given several presentations with the purpose of explaining the last improvements that we have made, but also to get feedback and advice about how to continue working on the project. The table below shows all the presentation we have given during the course:
   	
   	![Image of Presentations](https://github.com/ecabab/THUAS/blob/master/Images/Presentations.png)
   	
@@ -281,13 +285,17 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
   	* **Open presentations:** These presentations were given to our teachers, classmates and everyone who wanted to assist. Their main goal was to let people know about we were working on.
 
-  	* **TSNE presentation:** This presentation was given to our teachers and classmates in order to explain them what is the TSNE (t-distributed Stochastic Neighbor Embedding) and how to apply it.
+  	* **TSNE presentation:** This presentation was given to our teachers and classmates in order to explain to them what is the TSNE (t-distributed Stochastic Neighbor Embedding) and how to apply it.
   	
-  	* **Groene Mient presentation:** This presentation was given in _Groene Mient_ to the people who lives there. The data we have used comes from the dwellings which are placed in this neighbourhood and we went there with the aim of explaining everything about the project development.
+  	* **Groene Mient presentation:** This presentation was given in _Groene Mient_ to the people who live there. The data we have used comes from the dwellings which are placed in this neighborhood and we went there with the aim of explaining everything about the project development.
 
-  	* **TU Delft presentation:** This presentation was given in the _TU Delft_ to some teachers, researches and people who wanted to assist. The main goal was to get some feedback from the people specialized in energy.
+  	* **TU Delft presentation:** This presentation was given in the _TU Delft_ to some teachers, researches, and people who wanted to assist. The main goal was to get some feedback from the people specialized in energy.
 
   	From all of these presentations, I gave three closed presentations and the one which took place in _Groene Mient_.
 
   
-  * **Writing paper**
+  * **Research paper**
+
+	Writing a research paper has the purpose of explaining its whole development to those people who are interested in this topic, from the research question until the results and conclusion. It has been the first time writing a research paper for me, so it has been a really good opportunity to learn how to do it.
+	
+	As we did some research in order to learn how to write it and our product owner has been guiding us during this process by giving us feedback about what we were writing, it has been pretty straight forward. We first created the structure of the paper and then started writing. We assigned the different parts of the paper to all the people of the team, so we all participated. In my case, I explained the _cleaning data process_ and the _K-Nearest Neighbours_ implementation.

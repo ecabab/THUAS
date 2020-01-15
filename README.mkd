@@ -38,9 +38,9 @@ At the end of the project, we had to write a research paper which was divided in
 
 In order to get some domain knowledge about this topic, I did some research about smart meters and energy in The Netherlands by reading research papers and similar projects.<br>
 For the data cleaning process, I applied the methods I previously learned which are the following: looking for outliers, looking for blank spaces, filling blank spaces if possible, and delete the wrong data. I also added data from other resources (weather data from _KNMI_) and created dummy variables.<br>
-Apart from the dataset from _Groene Mient_, a second dataset of 120 dwellings was received, this one was not labeled, but also needed to be cleaned. Therefore, I cleaned and prepare it it to be used for the models.</br>
+Apart from the dataset from _Groene Mient_, a second dataset of 120 dwellings was received, this one was not labeled, but also needed to be cleaned. Therefore, I cleaned and prepare it to be used for the models.</br>
 With the purpose of getting insight from the dwellings and compare them, I created a table that shows when and how much each dwelling had consumed the most, so we could check if there was any pattern or relation between them or their characteristics.</br>
-Apart from that, I applied the _[TSNE and K-Means](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%201.%20Data%20Exploration.ipynb)_ with my partner Santiago Puertas Puchol with the purpose of cheching if it would give us more insight.</br>
+Apart from that, I applied the _[TSNE and K-Means](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%20TSNE%20and%20K-Means.ipynb)_ with my partner Santiago Puertas Puchol with the purpose of checking if it would give us more insight.</br>
 Once the data was cleaned, I applied the _K-Nearest Neighbours_ classifier by using different configuration parameters to find out which ones fitted the best. I created three models, one of them for each target feature (heating system, number of inhabitants and number of solar panels).</br>
 Apart from this approach, I also tried to classify the samples by if they had installed one heating system or not, so the different models will return if its heating system was _E_ or not, _WP_ or not and, _Zon_ or not. This apporach wa implemented by _LR_, _SVM_ and _KNN_.
 Once we got all the results, I wrote the following parts of the research paper: Data Preprocessing, K-Nearest Neighbours implementation and the final conclusion.
@@ -52,8 +52,8 @@ About the _K-Nearest Neighbours_, I implemented it by using different configurat
 About the approach of predicting if a dwelling had installed one type or heating system or not, the model which performed the best was the _KNN_, with an accuracy of 85% for _Zon_, 74% for _WP_ and 72% for _E_.
 
 When cleaning the data, I learned to analyze and extract the usable data from a big dataset. I used different methods with the purpose of applying the best for this case and acquired new cleaning skills.<br>
-Furthermore, I learned how to build, configure, train and evaluate a model by applying the _K-Nearest Neighbours, Logistic Regression and Support Vector Machine_, which can be applicable for any other model. Apart from that, now I am able to analyze and compare different models and choose which one fits better on each case. During this whole proccess, I learned how to configure the hyperparameters by using a Pipeline and how to evaluate the model by using cross-validation among others.
-Doing some research and writing the paper provided me and improved some reasearch skills that I have never used before.
+Furthermore, I learned how to build, configure, train and evaluate a model by applying the _K-Nearest Neighbours, Logistic Regression and Support Vector Machine_, which can be applicable for any other model. Apart from that, now I am able to analyze and compare different models and choose which one fits better on each case. During this whole process, I learned how to configure the hyperparameters by using a Pipeline and how to evaluate the model by using cross-validation among others.
+Doing some research and writing the paper provided me and improved some research skills that I have never used before.
 
 
 #### Own learning
@@ -75,24 +75,24 @@ Apart from that, I also learned how to research in official documents, take adva
 
 At the beginning of the course, I just was able to do some cleaning on the data based on different courses that I previously took. By taking this minor I have learned how to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project.<br>
 Besides the technical knowledge, I have also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the SCRUM methodology.</br>
-I am also proud of being able to research and write a research paper, which was something that I thought it was really difficult.
+I am also proud of being able to research and write a research paper, which was something that I thought was really difficult.
 
 
 #### Group project
 
 From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
-The main goal of this project was to get as much insight as possible from 33 dwellings of a neighbourhood called _Groene Mient_, specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of inhabitants and the number of solar panels.<br>
-The way to achieve this goal was by analysing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
+The main goal of this project was to get as much insight as possible from 33 dwellings of a neighborhood called _Groene Mient_, specifically, we wanted to be able to cluster the dwellings and predict the following features on each dwelling: the heating system installed, the number of inhabitants and the number of solar panels.<br>
+The way to achieve this goal was by analyzing the data that comes from the smart meters which are installed on these dwellings. These smart meters measure the energy delivery and energy consumption of each dwelling every 15 minutes. 
 
-In order to achieve this goal, we had to analyse and clean the data received from the smart pumps, try out different algorithms, evaluate and compare them and take out the best results. As a group, we applied the _SCRUM_ methodology by splitting and assigning the tasks to different people.<br>
+In order to achieve this goal, we had to analyze and clean the data received from the smart pumps, try out different algorithms, evaluate and compare them and take out the best results. As a group, we applied the _SCRUM_ methodology by splitting and assigning the tasks to different people.<br>
 The tasks that we did are the following: We all did some research on the topic and share with each other the content of the papers read; we also cleaned the data by using different approaches. About the machine learning, _Logistic Regression_ and _K-Means_ were implemented by Teo, the _Support Vector Machine_ was implemented by Merel and Rajeev, I implemented the _K-Nearest Neighbours_ and Santiago and Olivier implemented the _LSTM RNN_.
 We all together wrote the research paper and presented the improvements of the project development in class every week.
 
 We all together cleaned the data by using different approaches (deleting all the data from some dwellings, deleting blank spaces, filling the blank spaces…). We started clustering the data by using _TSNE_ and _PCA_, but we did not get good results, so we started implementing the clustering algorithms mentioned above.<br>
-From the K-means we could not get any information about what was happening on the clustering. Then we started with _LR_, _SVM_ and _KNN_, we set different configuration params on each algorithm in order to get the best results, we could get some results but not good enough to set the as final results. Finally, we implemented the _LSTM RNN_, which gave us the best results, it fitted the best because this kind of _RNN_ takes care about the timestamp and learns through the time.
+From the K-means we could not get any information about what was happening on the clustering. Then we started with _LR_, _SVM_, and _KNN_, we set different configuration params on each algorithm in order to get the best results, we could get some results but not good enough to set them as final results. Finally, we implemented the _LSTM RNN_, which gave us the best results, it fitted the best because this kind of _RNN_ takes care of the timestamp and learns through the time.
 
-The results that we got when we wanted to predict the heating system, number of inhabitants and number of solar panels are the following: _Logistic Regression_: 52%, 38% and 46%; _Support Vector Machine_: 63%, 42% and 56%; _K-Nearest Neighbours_: 63%, 41% and 54%; _LSTM_: 96%, 88% and 81%. As we can see, the _LSTM RNN_ gave us the best results.<br>
-In general, we all did a good work on the project by helping each other and solving the challenges set on each moment. We were also able to write a reasearch paper which includes the whole development of the project.
+The results that we got when we wanted to predict the heating system, number of inhabitants and number of solar panels are the following: _Logistic Regression_: 52%, 38%, and 46%; _Support Vector Machine_: 63%, 42%, and 56%; _K-Nearest Neighbours_: 63%, 41%, and 54%; _LSTM_: 96%, 88%, and 81%. As we can see, the _LSTM RNN_ gave us the best results.<br>
+In general, we all did good work on the project by helping each other and solving the challenges set at each moment. We were also able to write a research paper that includes the whole development of the project.
 
 When developing the whole project, I learned to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project, including the writing of the research paper.<br>
 Besides the technical knowledge, I also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the _SCRUM_ methodology.
@@ -102,25 +102,25 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 * #### Domain Knowledge
   * **Introduction of the subject field**
 
-  	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. Moreover, in the Netherlands there has been a growing concern with the use of natural gas, because of the exponential growth of earthquakes caused by the extraction of gas from the Groningen gas field. Accordingly, the urgency of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the build environment is responsible for 28% of the energy use from which 71% is for heating purposes. Currently, 87% of the buildings heating energy needs are covered with the use of natural gas. The technologies that currently exist which could help us reduce the use of natural gasses, are easier to implement in the build environment rather than the industry, since the industry often has higher temperature needs than the built environment. 
+  	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. Moreover, in the Netherlands, there has been a growing concern with the use of natural gas, because of the exponential growth of earthquakes caused by the extraction of gas from the Groningen gas field. Accordingly, the urgency of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the built environment is responsible for 28% of the energy use from which 71% is for heating purposes. Currently, 87% of the buildings heating energy needs are covered with the use of natural gas. The technologies that currently exist which could help us reduce the use of natural gasses are easier to implement in the built environment rather than the industry since the industry often has higher temperature needs than the built environment. 
 
-	To reduce the use of gas in the built environment, some new and renovated dwellings have already been constructed to Net-Zero Energy Building (NZEB) standard. This means that for these dwellings the total amount of energy used on an annual basis is equal to the amount of renewable energy created on site. The type of energy produced and used by this type of dwellings in the Netherlands is only electrical. The electricity energy use and production patterns of NZEB dwellings differs a lot from the average dwellings, because of the variety of heating and energy producing systems used.  
+	To reduce the use of gas in the built environment, some new and renovated dwellings have already been constructed to Net-Zero Energy Building (NZEB) standard. This means that for these dwellings the total amount of energy used on an annual basis is equal to the amount of renewable energy created on-site. The type of energy produced and used by this type of dwellings in the Netherlands is only electrical. The electricity energy use and production patterns of NZEB dwellings differ a lot from the average dwellings, because of the variety of heating and energy-producing systems used.  
 
-	Since these dwellings have such different energy patterns, new approaches are needed to be able to take technical/political decisions about what type of technologies to promote. Government-organisations can therefore use this information to create/improve (existing) policies. To set up these policies, information about dwelling energy usage and delivery can be collected from the dwellings. A good technique to collect that information is via smart meters. 
+	Since these dwellings have such different energy patterns, new approaches are needed to be able to take technical/political decisions about what type of technologies to promote. Government-organizations can, therefore, use this information to create/improve (existing) policies. To set up these policies, information about dwelling energy usage and delivery can be collected from the dwellings. A good technique to collect that information is via smart meters. 
 
-	By 2020, 80% of the households in The Netherlands will have a smart meter. A smart meter measures the amount of energy taken from and sent to the net. This data, in combination with publicly available data, could allow determining dwelling characteristics and the energy use behaviour of its residents. This information could be used to optimize the current dwellings energy systems, gain more knowledge about energy use patterns and to propose possible improvements with the goal to reduce CO2 emissions related to energy use.   
+	By 2020, 80% of the households in The Netherlands will have a smart meter. A smart meter measures the amount of energy taken from and sent to the net. This data, in combination with publicly available data, could allow determining dwelling characteristics and the energy use behavior of its residents. This information could be used to optimize the current dwellings energy systems, gain more knowledge about energy use patterns and to propose possible improvements with the goal to reduce CO2 emissions related to energy use.   
 
-	Previous research shows insights about household electricity consumption and CO2 emissions on dwellings in the Netherlands. It explores the effect of smart meter, appliance efficiency and consumer behaviour on reducing electricity consumption in the Netherlands. The results show their effect on electricity consumption and suggest that further effort is required to control and reduce it. Insights from the paper suggest that future studies should disaggregate with respect to several factors in electricity consumption as George Papachristos has stated in his paper. 
+	Previous research shows insights about household electricity consumption and CO2 emissions on dwellings in the Netherlands. It explores the effect of the smart meter, appliance efficiency and consumer behavior on reducing electricity consumption in the Netherlands. The results show their effect on electricity consumption and suggest that further effort is required to control and reduce it. Insights from the paper suggest that future studies should disaggregate with respect to several factors in electricity consumption as George Papachristos has stated in his paper.
 
-	Based on the research of Papachristos, behavioural patterns have been formed based on the characteristics of dwellings and electricity consumption. It analyses the appliance uses in the Dutch housing stock and define behavioural patterns and profiles of electricity consumption in detail. This has been done with survey data which were collected from 323 dwellings in the Netherlands on appliance ownership and use of electricity. 
+	Based on the research of Papachristos, behavioral patterns have been formed based on the characteristics of dwellings and electricity consumption. It analyses the appliance uses in the Dutch housing stock and define behavioral patterns and profiles of electricity consumption in detail. This has been done with survey data that were collected from 323 dwellings in the Netherlands on appliance ownership and the use of electricity. 
 
-	Currently, smart meters are being installed in most of the Dutch dwellings. Data from the smart meters contains important information about the minimum and maximum amount of energy circling back and forward in the net. This is needed to change the current net infrastructure, because the current infrastructure is not built for receiving as much energy from dwellings. Energy produced at dwellings should be able to be sent back to the net without little to no energy loss. This energy can then be used at moments without sun and/or wind. 
+	Currently, smart meters are being installed in most of the Dutch dwellings. Data from the smart meters contains important information about the minimum and maximum amount of energy circling back and forward in the net. This is needed to change the current net infrastructure because the current infrastructure is not built for receiving as much energy from dwellings. The energy produced at dwellings should be able to be sent back to the net without little to no energy loss. This energy can then be used at moments without sun and/or wind. 
 
-	Thorough analysis of 15-minute residential smart meter datasets, it is possible to identify possible value propositions of smart meter measurements. The results showed that for different applications, the communication needs from meters to control-centers, data storage capabilities, and the complexity of data processing intelligence varies significantly. 
+	A thorough analysis of 15-minute residential smart meter datasets, it is possible to identify possible value propositions of smart meter measurements. The results showed that for different applications, the communication needs from meters to control-centers, data storage capabilities, and the complexity of data processing intelligence varies significantly. 
 
-	When introducing the people in the dwelling with their consumer behaviour, this can be used to change their behaviour and therefore reduce the yearly energy cost. The consumption behaviour is based on the amount of energy every device in the dwelling is using, visualized by logistic regression machine learning. Another research proves that the use of machine learning algorithms can be used to forecast residential gas consumption based on energy consumption data and weather data. Gaining insight into the energy consumption with machine learning algorithms can be helpful in balancing the grid and insights in how to reduce the energy consumption can be received. 
+	When introducing the people in the dwelling with their consumer behavior, this can be used to change their behavior and therefore reduce the yearly energy cost. The consumption behavior is based on the amount of energy every device in the dwelling is using, visualized by logistic regression machine learning. Another research proves that the use of machine learning algorithms can be used to forecast residential gas consumption based on energy consumption data and weather data. Gaining insight into the energy consumption with machine learning algorithms can be helpful in balancing the grid and insights in how to reduce energy consumption can be received. 
 
-	This research focuses on gaining insights on the dwelling characteristics by using machine learning algorithms on smart meter data in combination of weather data. Specifically, the paper compares the accuracy of the models classifying the dwellings by type of heating system, number of solar panels and number of inhabitants. 
+	This research focuses on gaining insights on the dwelling characteristics by using machine learning algorithms on smart meter data in a combination with weather data. Specifically, the paper compares the accuracy of the models classifying the dwellings by type of heating system, the number of solar panels and the number of inhabitants.
 	
   * **Literature research**
 
@@ -143,7 +143,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
   	**Smart meter**
   	
-  	Our dataset contains energy delivery and consumption data from smart meters, which are installed in every dwelling in the Groene Mient. A smart meter is a digital gas and electricity meter, which can be monitored constantly. They have replaced the analog gas and electricity meter.   
+  	Our dataset contains energy delivery and consumption data from smart meters, which are installed in every dwelling in the _Groene Mient_. A smart meter is a digital gas and electricity meter, which can be monitored constantly. They have replaced the analog gas and electricity meter.   
 
 	Smart meters measure the current flow and voltage periodically. Adding these numbers will give the used power. The gas consumption is measured similarly. An In-Home Display (IHD) is connected to the meters and can be used to show your current power and gas consumption and how much it costs. This information can be used to reduce electricity and gas consumption.
 	
@@ -180,7 +180,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 	We decided to use Recurrent Neural Network (RNN), specifically the Long short-term memory (LSTM) one, to see if results are any different. Here we managed to get an accuracy of 96% for the heating system, 88% for the number of inhabitants and 81% for the number of solar panels. With the LSTM algorithm, we can find the answer to the characteristics of the dwelling like what kind of heating system is used, the number of inhabitants living in the dwelling and the number of solar panels installed in that dwelling. Considered that companies search for a minimum of 95% accuracy, we can now answer the research question about the heating system type installed in the dwellings, for the other characteristics, there is still work to be done.
 
-	To test the outcomes of the model, an excel file had been created showing the amount of successes and errors on the data using the LSTM. For the test, we chose randomly some dwellings that fit the different characteristics, for those dwellings we took the first two days of each month and the results are shown in the table below, where green cells mean that the prediction is correct whereas the red ones mean that the prediction is incorrect.
+	To test the outcomes of the model, an excel file had been created showing the number of successes and errors on the data using the LSTM. For the test, we chose randomly some dwellings that fit the different characteristics, for those dwellings, we took the first two days of each month and the results are shown in the table below, where green cells mean that the prediction is correct whereas the red ones mean that the prediction is incorrect.
 	
 	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Testing_LSTM.png)
   
@@ -217,7 +217,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	The next step is to clean the dataset.
     
     
-  * **Data cleaning:** Once I explained the data that I are going to use, I will start cleaning it.
+  * **Data cleaning:** Once I explained the data that I am going to use, I will start cleaning it.
 
 	[EDA - Data Cleaning](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%202.%20Data%20Cleaning.ipynb)
 	: This notebook contains the data cleaning process that has been followed to keep the usable data. It consists of the following steps:
@@ -272,26 +272,26 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
   #### Anonymous neighborhood
 
-  In the second dataset (Anonymous neighborhood), every dwelling has its own excel file which a sheet called _Smart Meter_. The only thing that differs from the proccess that I followed on the previous dataset is that I read the _Smart Meter_ sheet of every dwelling and I created a new dataset which contained the _smart meter_ data of every dwelling. As I said before, this dataset was not labeled but product owner asked for the number of solar panels installed on each dwelling. We never received this data so we were not able to test our models with this dataset.
+  In the second dataset (Anonymous neighborhood), every dwelling has its own excel file which a sheet called _Smart Meter_. The only thing that differs from the process that I followed on the previous dataset is that I read the _Smart Meter_ sheet of every dwelling and I created a new dataset that contained the _smart meter_ data of every dwelling. As I said before, this dataset was not labeled but the product owner asked for the number of solar panels installed on each dwelling. We never received this data so we were not able to test our models with this dataset.
   
-  * [EDA - Data Exploration](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%201.%20Logistic%20Regression.ipynb): This notebook contains the data exploration proccess, where I read the _Smart Meter_ sheet of every dwelling and created one dataset which contained all of them.
+  * [EDA - Data Exploration](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%206.%20Data%20Exploration%20(Anonymous%20dataset).ipynb): This notebook contains the data exploration process, where I read the _Smart Meter_ sheet of every dwelling and created one dataset which contained all of them.
 
-  * [EDA - Data Cleaning](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%201.%20Logistic%20Regression.ipynb): This notebook contains the data cleaning proccess, where I applied the same methods used for the _Groene Mient_ dataset.
+  * [EDA - Data Cleaning](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%207.%20Data%20Cleaning%20(Anonymous%20dataset).ipynb): This notebook contains the data cleaning proccess, where I applied the same methods used for the _Groene Mient_ dataset.
 
-  * [EDA - Data Preparation](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%201.%20Logistic%20Regression.ipynb): This notebook contains the data preparation proccess, where the data has been transformed and reshaped to be inserted in the models.
+  * [EDA - Data Preparation](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%208.%20Data%20Preparation%20(Anonymous%20dataset).ipynb): This notebook contains the data preparation proccess, where the data has been transformed and reshaped to be inserted in the models.
 
-  * [EDA - Data Visualization](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%201.%20Logistic%20Regression.ipynb): This notebook contains the data visualization proccess, where I plotted the energy delivery and consumption from some dwellings before and after the cleaning proccess in order to compare them.
+  * [EDA - Data Visualization](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%209.%20Data%20Visualization%20(Anonymous%20dataset).ipynb): This notebook contains the data visualization proccess, where I plotted the energy delivery and consumption from some dwellings before and after the cleaning proccess in order to compare them.
   
 * #### Predictive Analytics
 
-	Once the data has been cleaned and prepared to be inserted in the models, it is time to create the models. As the main goal is to classify the dwelling by their heating system, number of inhabitants and number of solar panels, the following supervised classification algorithms are going to be implemented:
+	Once the data has been cleaned and prepared to be inserted in the models, it is time to create the models. As the main goal is to classify the dwelling by their heating system, the number of inhabitants and number of solar panels, the following supervised classification algorithms are going to be implemented:
 	* **[PA - Logistic Regression](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%201.%20Logistic%20Regression.ipynb):** This algorithm was implemented by my teammates, but I tried it with different configuration parameters to get better results by using a Pipeline.
 	* **[PA - Support Vector Machine](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%202.%20Support%20Vector%20Machine.ipynb):** This algorithm was implemented by my teammates, but I tried it with different configuration parameters to get better results by using a Pipeline.
 	* **[PA - K-Nearest Neighbors](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%203.%20K-Nearest%20Neighbor.ipynb):** I implemented the whole algorithm with different configuration parameters by using a Pipeline.
-	* **LSTM:** I did not implemented this algorithm, so I just show its results to compare them with the other models.
-	* **[PA - Different approach](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%205.%20Different%20approach.ipynb):** This notebook contains the implementation of the LR, SVM and KNN in order to predict the heating system. This apporach consists of determine if a dwelling has an specific heating system type installed or not.
+	* **LSTM:** I did not implement this algorithm, so I just show its results to compare them with the other models.
+	* **[PA - Different approach](https://github.com/ecabab/THUAS/blob/master/PA/Emilio%20Caba%20-%20PA%20-%205.%20Different%20approach.ipynb):** This notebook contains the implementation of the LR, SVM, and KNN in order to predict the heating system. This approach consists of determining if a dwelling has a specific heating system type installed or not.
 
-	Every algorithm has been implemented with the purpose of comparing their performance and computing time.
+	Every algorithm has been implemented with the purpose of comparing its performance and computing time.
 
 	As said before, I created four different datasets based on the time interval (15-min, hourly, daily and weekly). I have tried all of them and the best results come when I use **weekly data** for LG, SVM and KNN; and **15-min data** for the LSTM, so I will just show the models built based on this approach.
 	
@@ -301,56 +301,56 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	As I previously said, I selected the **_K-Nearest Negihbors_** algorithm since it is a classification algorithm. In order for this model to work the data must have a notion of distance. In laymens terms, I need to be able to graph our data.
 	
-	This algorithm is non-linear as _Logistic Regression_ or _Support Vector Machine_ and can be used on classes. Since the data is able to be graphed, as shown before when the TSNE was applied, the _K-Nearest Negihbors_ algorithm will work properly with it.
+	This algorithm is non-linear as _Logistic Regression_ or _Support Vector Machine_ and can be used in classes. Since the data is able to be graphed, as shown before when the TSNE was applied, the _K-Nearest Negihbors_ algorithm will work properly with it.
 	
-	Once the data is able to be graphed, the _K-Nearest Negihbors_ algorithm will predict the target variable depending on the _n_ samples that surrounds it. This model will prove useful because in essence it looks at the neighboring data points to determine what this new data point will fall into.
+	Once the data is able to be graphed, the _K-Nearest Negihbors_ algorithm will predict the target variable depending on the _n_ samples that surround it. This model will prove useful because, in essence, it looks at the neighboring data points to determine what this new data point will fall into.
 	
 	##### Configuring a model
 	
-	With the purpose of creating different models with different configurations I use a Pipeline, where I specify how to normalize the data, the algorithm to be used and its characteristics.
+	With the purpose of creating different models with different configurations, I use a Pipeline, where I specify how to normalize the data, the algorithm to be used and its characteristics.
 
-	In order to normalize the data, I use the StandarScaler library, which standardize features by removing the mean and scaling to unit variance. The standard score of a sample _x_ is calculated as: _z = (x - u) / s_, where _u_ is the mean of the training samples, and s is the standard deviation of the training samples.
+	In order to normalize the data, I use the StandarScaler library, which standardizes features by removing the mean and scaling to unit variance. The standard score of a sample _x_ is calculated as: _z = (x - u) / s_, where _u_ is the mean of the training samples, and s is the standard deviation of the training samples.
 
 	In this case, I use _K-Nearest Neighbors_. One of the features of the pipeline is that I am able to select different values for the model parameters. The pipeline will execute all the different possibilities and give the best one. For this model, I set the following parameters:
 	
 	* **n_neighbors:** Number of neighbors to use. For this case, I use the following _n_ values: 5, 6, 7, 8, 9, 10, 11, 12, 13 and 14.
-	* **p:** Power parameter for the Minkowski metric. When p = 1, this is equivalent to using manhattan distance (l1), and euclidean distance (l2) for p = 2. 
+	* **p:** Power parameter for the Minkowski metric. When p = 1, this is equivalent to using manhattan distance (l1), and Euclidean distance (l2) for p = 2. 
 	* **weights:** Weight function used in prediction. Possible values:
     	* uniform: uniform weights. All points in each neighborhood are weighted equally.
     	* distance: weight points by the inverse of their distance. in this case, closer neighbors of a query point will have a greater influence than neighbors which are further away.
 	
 	##### Training a model
 	
-	With the purpose of building and training the models, I use _GridSearchCV_. This library allows to create different models by setting different values for each parameter and is able to implement the cross validation. The goal of cross-validation is to define a data set to test the model in the training phase in order to limit problems like overfitting or underfitting and get an insight on how the model will generalize to an independent data set.
+	With the purpose of building and training the models, I use _GridSearchCV_. This library allows creating different models by setting different values for each parameter and is able to implement the cross-validation. The goal of cross-validation is to define a data set to test the model in the training phase in order to limit problems like overfitting or underfitting and get an insight on how the model will generalize to an independent data set.
 	
-	Once the models have tried the different possible configurantion, it will return just the best one for each target variable.
+	Once the models have tried the different possible configurations, it will return just the best one for each target variable.
 	
 	##### Evaluating a model
 	
 	These are the results obtained from the training process, as I have used a _GridSearchCV_, only the best models will be shown:
 	
-		* Heating system: This model accomplished an accuracy of 63% by using the following configuration parameters:
-			* _ n_neighbors_: 9
-			* _p_: 1
-			* _ weights_: _uniform_
+	* Heating system: This model accomplished an accuracy of 63% by using the following configuration parameters:
+		* _n\_neighbors_: 9
+		* _p_: 1
+		* _weights_: _uniform_
 
-		* Nº of inhabitants: This model accomplished an accuracy of 41% by using the following configuration parameters:
-			* _ n_neighbors_: 13
-			* _p_: 1
-			* _ weights_: _distance_
+	* Nº of inhabitants: This model accomplished an accuracy of 41% by using the following configuration parameters:
+		* _n\_neighbors_: 13
+		* _p_: 1
+		* _weights_: _distance_
 
-		* Nº of solar panels: This model accomplished an accuracy of 53% by using the following configuration parameters:
-			* _ n_neighbors_: 7
-			* _p_: 2
-			* _ weights_: _distance_
+	* Nº of solar panels: This model accomplished an accuracy of 53% by using the following configuration parameters:
+		* _n\_neighbors_: 7
+		* _p_: 2
+		* _weights_: _distance_
 	
 	##### Visualizing the outcome of the model
 	
-	Up to now that I have built and evaluated the models, I am going to predict the different target values of a test set and compare the results with the true values by using the confussion matrix.
+	Up to now that I have built and evaluated the models, I am going to predict the different target values of a test set and compare the results with the true values by using the confusion matrix.
 	
 	![KNN Outcome](https://github.com/ecabab/THUAS/blob/master/Images/KNN_Outcome.png)
 	
-	As the confussion matrices shown, the model which predicts the heating system works the best when predicting _WP_, _E_ and _Zon_ get worse results because of the number of samples of each heating system; the model which predicts the nº of inhabitants works the best when predicting dwellings with 2 and 4 inhabitants and, the model which predicts the nº of solar panels works the best when predicting those dwellings that have installed between 10 and 14 solar panels.
+	As the confusion matrices shows, the model which predicts the heating system works the best when predicting _WP_, _E_ and _Zon_ get worse results because of the number of samples of each heating system; the model which predicts the nº of inhabitants works the best when predicting dwellings with 2 and 4 inhabitants and, the model which predicts the nº of solar panels works the best when predicting those dwellings that have installed between 10 and 14 solar panels.
 	
 	##### Global results
 	
@@ -391,4 +391,4 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 	Writing a research paper has the purpose of explaining its whole development to those people who are interested in this topic, from the research question until the results and conclusion. It has been the first time writing a research paper for me, so it has been a really good opportunity to learn how to do it.
 	
-	As I did some research in order to learn how to write it and our product owner has been guiding us during this process by giving us feedback about what we were writing, it has been pretty straight forward. We first created the structure of the paper and then started writing. We assigned the different parts of the paper to all the people of the team, so we all participated. In my case, I explained the _cleaning data process_, the _K-Nearest Neighbours_ implementation and the final conclusion.
+	As I did some research in order to learn how to write it and our product owner has been guiding us during this process by giving us feedback about what we were writing, it has been pretty straight forward. We first created the structure of the paper and then started writing. We assigned the different parts of the paper to all the people of the team, so we all participated. In my case, I explained the _cleaning data process_, the _K-Nearest Neighbours_ implementation, and the final conclusion.

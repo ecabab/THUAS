@@ -9,34 +9,40 @@ The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić,
 
 
 ## Table of Contents
-1. [Research project](#research-project)
-	- 1.1 [Task definition](#task-definition)
-	- 1.2 [Evaluation](#evaluation)
-	- 1.3 [Conclusions](#conclusions)
-	- 1.4 [Planning](#planning)
+1. [DataCamp courses](#datacamp-courses)
+2. [Reflecion and evaluation](#reflecion-and-evaluation)
+	- [Own contribution](#own-contribution)
+	- [Own learning](#own-learning)
+	- [Group project](#group-project)
 
-2. [Domain knowledge](#domain-knowledge)
-	- 2.1 [Introduction of the subject field](#introduction-of-the-subject-field)
-	- 2.2 [Literature research](#literature-research)
-	- 2.3 [Explanation of Terminology, jargon and definitions](#explanation-of-terminology-jargon-and-definitions)
-	
-3. [Data preprocessing](#data-preprocessing)
-	- 3.1 [Data exploration](#data-exploration)
-	- 3.2 [Data cleansing](#data-cleansing)
-	- 3.3 [Data preparation](#data-preparation)
-	- 3.4 [Data explanation](#data-explanation)
-	- 3.5 [Data visualization](#data-visualization)
-	
-4. [Predictive Analytics](#predictive-analytics)
-	- 4.1 [Selecting a Model](#selecting-a-model)
-	- 4.2 [Configuring a Model](#configuring-a-model)
-	- 4.3 [Training a model](#training-a-model)
-	- 4.3 [Evaluating a model](#evaluating-a-model)
-	- 4.3 [Visualizing the outcome of a model](#visualizing-the-outcome-of-a-model)
+3. [Research project](#research-project)
+	- [Task definition](#task-definition)
+	- [Evaluation](#evaluation)
+	- [Conclusion](#conclusion)
+	- [Planning](#planning)
 
-5. [Communication](#communication)
-	- 5.1 [Presentations](#presentations)
-	- 5.2 [Writing paper](#writing-paper)
+4. [Domain knowledge](#domain-knowledge)
+	- [Introduction of the subject field](#introduction-of-the-subject-field)
+	- [Literature research](#literature-research)
+	- [Explanation of Terminology, jargon and definitions](#explanation-of-terminology-jargon-and-definitions)
+	
+5. [Data preprocessing](#data-preprocessing)
+	- [Data exploration](#data-exploration)
+	- [Data cleansing](#data-cleansing)
+	- [Data preparation](#data-preparation)
+	- [Data explanation](#data-explanation)
+	- [Data visualization](#data-visualization)
+	
+6. [Predictive Analytics](#predictive-analytics)
+	- [Selecting a Model](#selecting-a-model)
+	- [Configuring a Model](#configuring-a-model)
+	- [Training a model](#training-a-model)
+	- [Evaluating a model](#evaluating-a-model)
+	- [Visualizing the outcome of a model](#visualizing-the-outcome-of-a-model)
+
+7. [Communication](#communication)
+	- [Presentations](#presentations)
+	- [Writing paper](#writing-paper)
 
 ### DataCamp courses
 During the Applied Data Science minor, I have been asked to complete some DataCamp courses as a complement to enrich our knowledge about data science. All of them were completed as requested on time as shown below:

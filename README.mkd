@@ -24,11 +24,11 @@ The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić,
 4. [Domain knowledge](#domain-knowledge)
 	- [Introduction of the subject field](#introduction-of-the-subject-field)
 	- [Literature research](#literature-research)
-	- [Explanation of Terminology, jargon and definitions](#explanation-of-terminology-jargon-and-definitions)
+	- [Explanation of terminology, jargon and definitions](#explanation-of-terminology-jargon-and-definitions)
 	
 5. [Data preprocessing](#data-preprocessing)
 	- [Data exploration](#data-exploration)
-	- [Data cleansing](#data-cleansing)
+	- [Data cleaning](#data-cleaning)
 	- [Data preparation](#data-preparation)
 	- [Data explanation](#data-explanation)
 	- [Data visualization](#data-visualization)

@@ -10,7 +10,7 @@ The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić,
 
 ## Table of Contents
 1. [DataCamp courses](#datacamp-courses)
-2. [Reflecion and evaluation](#reflecion-and-evaluation)
+2. [Reflection and evaluation](#reflection-and-evaluation)
 	- [Own contribution](#own-contribution)
 	- [Own learning](#own-learning)
 	- [Group project](#group-project)

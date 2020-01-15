@@ -8,7 +8,35 @@ The main goal of the course was to be able to carry out a real data science proj
 The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić, Merel Kreszner, Rajeev Kalloe and me, and the product owner was Dr. T.B. Salcedo Rahola.
 
 
-## Content
+## Table of Contents
+1. [Research project](#research-project)
+	- 1.1 [Task definition](#task-definition)
+	- 1.2 [Evaluation](#evaluation)
+	- 1.3 [Conclusions](#conclusions)
+	- 1.4 [Planning](#planning)
+
+2. [Domain knowledge](#domain-knowledge)
+	- 2.1 [Introduction of the subject field](#introduction-of-the-subject-field)
+	- 2.2 [Literature research](#literature-research)
+	- 2.3 [Explanation of Terminology, jargon and definitions](#explanation-of-terminology-jargon-and-definitions)
+	
+3. [Data preprocessing](#data-preprocessing)
+	- 3.1 [Data exploration](#data-exploration)
+	- 3.2 [Data cleansing](#data-cleansing)
+	- 3.3 [Data preparation](#data-preparation)
+	- 3.4 [Data explanation](#data-explanation)
+	- 3.5 [Data visualization](#data-visualization)
+	
+4. [Predictive Analytics](#predictive-analytics)
+	- 4.1 [Selecting a Model](#selecting-a-model)
+	- 4.2 [Configuring a Model](#configuring-a-model)
+	- 4.3 [Training a model](#training-a-model)
+	- 4.3 [Evaluating a model](#evaluating-a-model)
+	- 4.3 [Visualizing the outcome of a model](#visualizing-the-outcome-of-a-model)
+
+5. [Communication](#communication)
+	- 5.1 [Presentations](#presentations)
+	- 5.2 [Writing paper](#writing-paper)
 
 ### DataCamp courses
 During the Applied Data Science minor, I have been asked to complete some DataCamp courses as a complement to enrich our knowledge about data science. All of them were completed as requested on time as shown below:
@@ -99,6 +127,40 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 
 ### Project Development (_Dwelling Energy Insights_)
+* #### Research Project
+  * **Task definition**
+  
+	This research focuses on dwellings which are part of the built environment to gain insights into the energy delivery and consumption because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical is, because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
+
+	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many inhabitants are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data. 
+
+  * **Evaluation**
+
+  	With the purpose of achieving this goal, we will develop a complete study about the dwellings with the information gathered by the smart meters and the weather data which comes from the _KNMI_.
+  	
+  	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
+  
+  * **Conclusion**
+
+  	In this part of the chapter, the results of the relevant algorithms used are discussed.  
+
+	By using Logistic Regression (LR), Support Vector Machine (SVM) and K-Nearest Neighbours (KNN) algorithms, the best prediction results that we got were 63% of accuracy for the heating system, 42% of accuracy for the number of inhabitants and 56% of accuracy for the number of solar panels. So, when presenting one register of the dataset, the algorithms can tell us about 63% for sure which heating system is used by that dwelling. This means is it only partly possible to gain insight into the characteristics of the dwellings using the data from smart meters. 
+
+	We decided to use Recurrent Neural Network (RNN), specifically the Long short-term memory (LSTM) one, to see if results are any different. Here we managed to get an accuracy of 96% for the heating system, 88% for the number of inhabitants and 81% for the number of solar panels. With the LSTM algorithm, we can find the answer to the characteristics of the dwelling like what kind of heating system is used, the number of inhabitants living in the dwelling and the number of solar panels installed in that dwelling. Considered that companies search for a minimum of 95% accuracy, we can now answer the research question about the heating system type installed in the dwellings, for the other characteristics, there is still work to be done.
+
+	To test the outcomes of the model, an excel file had been created showing the number of successes and errors on the data using the LSTM. For the test, we chose randomly some dwellings that fit the different characteristics, for those dwellings, we took the first two days of each month and the results are shown in the table below, where green cells mean that the prediction is correct whereas the red ones mean that the prediction is incorrect.
+	
+	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Testing_LSTM.png)
+  
+  * **Planning**
+
+  	During the project development, I have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
+  	
+  	
+  	The Trello dashboard consisted of 4 different lists (_To Do, In Progress, Done and To Refine_). At the end of every sprint, a new backlog is defined and added to the list _To Refine_. At the beginning of the next sprint, a meeting decides what will be worked on during the sprint and moved to the list _To Do_. The tasks in the _To Do_ list will be assigned to certain persons in the team. When working on it the task will be moved to the list _In Progress_ and when done to the list _Done_.
+  	
+  	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Trello_dashboard.png)
+  	
 * #### Domain Knowledge
   * **Introduction of the subject field**
 
@@ -158,40 +220,6 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		* E = Electricity
 		* ZON = Thermal solar panels
 		* WP = Heat Pump
-  
-* #### Research Project
-  * **Task definition**
-  
-	This research focuses on dwellings which are part of the built environment to gain insights into the energy delivery and consumption because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical is, because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
-
-	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many inhabitants are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data. 
-
-  * **Evaluation**
-
-  	With the purpose of achieving this goal, we will develop a complete study about the dwellings with the information gathered by the smart meters and the weather data which comes from the _KNMI_.
-  	
-  	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
-  
-  * **Conclusion**
-
-  	In this part of the chapter, the results of the relevant algorithms used are discussed.  
-
-	By using Logistic Regression (LR), Support Vector Machine (SVM) and K-Nearest Neighbours (KNN) algorithms, the best prediction results that we got were 63% of accuracy for the heating system, 42% of accuracy for the number of inhabitants and 56% of accuracy for the number of solar panels. So, when presenting one register of the dataset, the algorithms can tell us about 63% for sure which heating system is used by that dwelling. This means is it only partly possible to gain insight into the characteristics of the dwellings using the data from smart meters. 
-
-	We decided to use Recurrent Neural Network (RNN), specifically the Long short-term memory (LSTM) one, to see if results are any different. Here we managed to get an accuracy of 96% for the heating system, 88% for the number of inhabitants and 81% for the number of solar panels. With the LSTM algorithm, we can find the answer to the characteristics of the dwelling like what kind of heating system is used, the number of inhabitants living in the dwelling and the number of solar panels installed in that dwelling. Considered that companies search for a minimum of 95% accuracy, we can now answer the research question about the heating system type installed in the dwellings, for the other characteristics, there is still work to be done.
-
-	To test the outcomes of the model, an excel file had been created showing the number of successes and errors on the data using the LSTM. For the test, we chose randomly some dwellings that fit the different characteristics, for those dwellings, we took the first two days of each month and the results are shown in the table below, where green cells mean that the prediction is correct whereas the red ones mean that the prediction is incorrect.
-	
-	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Testing_LSTM.png)
-  
-  * **Planning**
-
-  	During the project development, I have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
-  	
-  	
-  	The Trello dashboard consisted of 4 different lists (_To Do, In Progress, Done and To Refine_). At the end of every sprint, a new backlog is defined and added to the list _To Refine_. At the beginning of the next sprint, a meeting decides what will be worked on during the sprint and moved to the list _To Do_. The tasks in the _To Do_ list will be assigned to certain persons in the team. When working on it the task will be moved to the list _In Progress_ and when done to the list _Done_.
-  	
-  	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Trello_dashboard.png)
   
 * #### Data Preprocessing
   * **Data exploration:**

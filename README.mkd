@@ -128,19 +128,19 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 ### Project Development (_Dwelling Energy Insights_)
 * #### Research Project
-  * **Task definition**
+  ##### Task definition
   
 	This research focuses on dwellings which are part of the built environment to gain insights into the energy delivery and consumption because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical is, because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
 
 	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many inhabitants are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data. 
 
-  * **Evaluation**
+  ##### Evaluation
 
   	With the purpose of achieving this goal, we will develop a complete study about the dwellings with the information gathered by the smart meters and the weather data which comes from the _KNMI_.
   	
   	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
   
-  * **Conclusion**
+  ##### Conclusion
 
   	In this part of the chapter, the results of the relevant algorithms used are discussed.  
 
@@ -152,7 +152,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Testing_LSTM.png)
   
-  * **Planning**
+  ##### Planning
 
   	During the project development, I have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
   	

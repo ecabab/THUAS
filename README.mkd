@@ -3,7 +3,7 @@
 
 My name is Emilio Caba, and this portfolio is a representation of all that I have learned and accomplished while taking the Applied Data Science minor in The Hague University of Applied Sciences, placed in The Hague (The Netherlands).
 
-The main goal of the course was to be able to carry out a real data science project in teams of six people. With the purpose to accomplish this goal, I have taken several lectures and online courses in DataCamp. The project where I have participated was called _Dwelling Energy Insights_ and its development is explained in this portfolio.
+The main goal of the course was to be able to carry out a real data science project in teams of six people. With the purpose to accomplish this goal, I have taken several lectures and online courses in DataCamp. The project in which I have participated was called _Dwelling Energy Insights_ and its development is explained in this portfolio.
 
 The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić, Merel Kreszner, Rajeev Kalloe and me, and the product owner was Dr. T.B. Salcedo Rahola.
 
@@ -45,7 +45,7 @@ The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić,
 	- [Writing paper](#writing-paper)
 
 ### DataCamp courses
-During the Applied Data Science minor, I have been asked to complete some DataCamp courses as a complement to enrich our knowledge about data science. All of them were completed as requested on time as shown below:
+During the Applied Data Science minor, I have been asked to complete some DataCamp courses as a complement to enrich my knowledge about data science. All of them were completed as requested on time as shown below:
 
 ![Image of Assignments](https://github.com/ecabab/THUAS/blob/master/Images/DataCamp_Assignments.png)
 
@@ -70,10 +70,10 @@ One of the first indispensable tasks in every data science project is to clean t
 Apart from the data cleaning process, each one of us chose a different clustering algorithm to implement on the cleaned data. In my case, I chose _K-Nearest Neighbours_.</br>
 At the end of the project, we had to write a research paper which was divided into different parts.
 
-In order to get some domain knowledge about this topic, I did some research about smart meters and energy in The Netherlands by reading research papers and similar projects.<br>
+In order to get some domain knowledge about this topic, I did some research about smart meters and energy in The Netherlands by reading research papers of similar projects.<br>
 For the data cleaning process, I applied the methods I previously learned which are the following: looking for outliers, looking for blank spaces, filling blank spaces if possible, and delete the wrong data. I also added data from other resources (weather data from _KNMI_) and created dummy variables.<br>
 Apart from the dataset from _Groene Mient_, a second dataset of 120 dwellings was received, this one was not labeled, but also needed to be cleaned. Therefore, I cleaned and prepare it to be used for the models.</br>
-With the purpose of getting insight from the dwellings and compare them, I created a table that shows when and how much each dwelling had consumed the most, so we could check if there was any pattern or relation between them or their characteristics.</br>
+With the purpose of getting insight from the dwellings and compare them, I created a table that shows when and how much each dwelling had delivered and consumed the most, so we could check if there was any pattern or relation between them or their characteristics.</br>
 Apart from that, I applied the _[TSNE and K-Means](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%20TSNE%20and%20K-Means.ipynb)_ with my partner Santiago Puertas Puchol with the purpose of checking if it would give us more insight.</br>
 Once the data was cleaned, I applied the _K-Nearest Neighbours_ classifier by using different configuration parameters to find out which ones fitted the best. I created three models, one of them for each target feature (heating system, number of inhabitants and number of solar panels).</br>
 Apart from this approach, I also tried to classify the samples by if they had installed one heating system or not, so the different models will return if its heating system was _E_ or not, _WP_ or not and, _Zon_ or not. This apporach wa implemented by _LR_, _SVM_ and _KNN_.
@@ -81,7 +81,7 @@ Once we got all the results, I wrote the following parts of the research paper: 
 
 I did a good data cleaning process and we use the data from _Groene Mient_ to feed all the different models and algorithms that we tried out. The second dataset was also properly cleaned.<br>
 The consumption table was suscessfully created and use afterwards to get more insight about these dwellings.<br>
-From the _TSNE_ and _K-Means_, it was not possible to get much insight a I implemented it very early in the project so I did not have enough knowledge about it.
+From the _TSNE_ and _K-Means_, it was not possible to get much insight as I implemented it very early in the project and I did not have enough knowledge about it.</br>
 About the _K-Nearest Neighbours_, I implemented it by using different configuration parameters, but it did not give me enough good results even though they were better than the _Logistic Regression_ and the _Support Vector Machine_ results (63% for heating system, 41% for nº of inhabitants, and 54% for nº of solar panels). However, it did not overcome the accuracy of the _LSTM_ model (95% for heating system, 87% for nº of inhabitants, and 80% for nº of solar panels).
 About the approach of predicting if a dwelling had installed one type or heating system or not, the model which performed the best was the _KNN_, with an accuracy of 85% for _Zon_, 74% for _WP_ and 72% for _E_.
 
@@ -95,7 +95,7 @@ Doing some research and writing the paper provided me and improved some research
 From September 2019 to January 2020, I took an Applied Data Science minor at The Hague University of Applied Sciences where I participated in the development of a research project called _Dwelling Energy Insights_ as part of a team of six people.<br>
 The purpose of this minor was to learn and apply the basics of data science to a real project in The Netherlands, apart from researching and explaining the results in a research paper.
 
-The main goal of the course was to learn as much as possible about data science. The courses consisted of the following subtopics: machine learning (exploratory data analysis, data, validation, and evaluation), research and neuronal networks.<br>
+The main goal of the course was to learn as much as possible about data science. The courses consisted of the following subtopics: machine learning (exploratory data analysis, configure a model, train it and evaluate its results), research and neuronal networks.<br>
 As I worked on a real project, I also had to learn how to work in a group and with our product owner, hence I had to learn some teamwork skills like _SCRUM_ and communicative skills.
 
 With the objective to learn as much as possible, I had different ways to get the knowledge.
@@ -125,10 +125,10 @@ We all together wrote the research paper and presented the improvements of the p
 We all together cleaned the data by using different approaches (deleting all the data from some dwellings, deleting blank spaces, filling the blank spaces…). We started clustering the data by using _TSNE_ and _PCA_, but we did not get good results, so we started implementing the clustering algorithms mentioned above.<br>
 From the K-means we could not get any information about what was happening on the clustering. Then we started with _LR_, _SVM_, and _KNN_, we set different configuration params on each algorithm in order to get the best results, we could get some results but not good enough to set them as final results. Finally, we implemented the _LSTM RNN_, which gave us the best results, it fitted the best because this kind of _RNN_ takes care of the timestamp and learns through the time.
 
-The results that we got when we wanted to predict the heating system, number of inhabitants and number of solar panels are the following: _Logistic Regression_: 52%, 38%, and 46%; _Support Vector Machine_: 63%, 42%, and 56%; _K-Nearest Neighbours_: 63%, 41%, and 54%; _LSTM_: 96%, 88%, and 81%. As we can see, the _LSTM RNN_ gave us the best results.<br>
+The results that we got when we wanted to predict the heating system, number of inhabitants and number of solar panels are the following: _Logistic Regression_: 52%, 38%, and 46%; _Support Vector Machine_: 63%, 42%, and 56%; _K-Nearest Neighbours_: 63%, 41%, and 54%; _LSTM_: 95%, 87%, and 80%. As we can see, the _LSTM RNN_ gave us the best results.<br>
 In general, we all did good work on the project by helping each other and solving the challenges set at each moment. We were also able to write a research paper that includes the whole development of the project.
 
-When developing the whole project, I learned to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project, including the writing of the research paper.<br>
+When developing the project, I learned to carry out a complete exploratory data analysis, apply and compare different algorithms to the data and extract good results from the whole development of the project, including the writing of the research paper.<br>
 Besides the technical knowledge, I also learned how to deal with my colleges, split the tasks and share the knowledge between us by following the _SCRUM_ methodology.
 
 
@@ -144,7 +144,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
   	With the purpose of achieving this goal, we will develop a complete study about the dwellings with the information gathered by the smart meters and the weather data which comes from the _KNMI_.
   	
-  	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
+  	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with the conclusion.
   
   #### Conclusion
 
@@ -230,6 +230,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 * #### Data Preprocessing
   #### Data exploration
     During the development of this project, I will be using data from three different resources:
+	  
 	  * _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
 	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consists of 120 houses. This dataset is not labeled, I will use it to feed our models with different data and see how they behave.
 	  * _**KNMI**_: In order to get more insight into the characteristics of the dwelling, I will use weather data to improve our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.

@@ -228,13 +228,13 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consists of 120 houses. This dataset is not labeled, I will use it to feed our models with different data and see how they behave.
 	  * _**KNMI**_: In order to get more insight into the characteristics of the dwelling, I will use weather data to improve our models, this data comes from the *Koninklijk Nederlands Meteorologisch Instituut*.
 
-	    #### _**Groene Mient**_
-	    The data from _Groene Mient_ comes inside an excel file which consists of two different sheets:
-	    
-		* **_Productie_ sheet**: It contains the energy delivery read by the smart meter.
-		* **_Consumptie_ sheet**: It contains the energy consumption read by the smart meter.
-		
-		Both of the sheets contain some other information about the dwellings that I will explain later.
+    #### _**Groene Mient**_
+    The data from _Groene Mient_ comes inside an excel file which consists of two different sheets:
+    
+	* **_Productie_ sheet**: It contains the energy delivery read by the smart meter.
+	* **_Consumptie_ sheet**: It contains the energy consumption read by the smart meter.
+	
+	Both of the sheets contain some other information about the dwellings that I will explain later.
 		
 	[EDA - Data Exploration of _Groene Mient_ dataset](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%201.%20Data%20Exploration.ipynb)
 		: This notebook contains the data exploration process that has been followed to take the first look at the data. It consists of the following steps:

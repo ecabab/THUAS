@@ -38,7 +38,7 @@ The team members were Santiago Puertas Puchol, Olivier van Luijk, Teo Čurčić,
 	- [Configuring a Model](#configuring-a-model)
 	- [Training a model](#training-a-model)
 	- [Evaluating a model](#evaluating-a-model)
-	- [Visualizing the outcome of a model](#visualizing-the-outcome-of-a-model)
+	- [Visualizing the outcome of the model](#visualizing-the-outcome-of-the-model)
 
 7. [Communication](#communication)
 	- [Presentations](#presentations)
@@ -425,7 +425,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	* [Closed presentation - Week 12](https://github.com/ecabab/THUAS/blob/master/Presentations/Dwelling%20Energy%20Insights%20-%20week%2012.pdf)
 
   
-  #### Research paper
+  #### Writing paper
 
 	Writing a research paper has the purpose of explaining its whole development to those people who are interested in this topic, from the research question until the results and conclusion. It has been the first time writing a research paper for me, so it has been a really good opportunity to learn how to do it.
 	

@@ -128,19 +128,19 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 ### Project Development (_Dwelling Energy Insights_)
 * #### Research Project
-  ##### Task definition
+  #### Task definition
   
 	This research focuses on dwellings which are part of the built environment to gain insights into the energy delivery and consumption because it is critical to classify the characteristics of dwellings that do not use natural gasses. The reason why this is so critical is, because with information about the dwelling, it will be easier to decide which heating system and how many solar panels are needed for a dwelling to comply with the NZEB standard. 
 
 	With the smart meter data, it should be possible to **predict what kind of heating system is used, how many solar panels are installed and how many inhabitants are living in this dwelling.** This paper focusses on **comparing the accuracy of models created by different machine learning algorithms**, which can classify the different characteristics based on smart meter data and KNMI weather data. 
 
-  ##### Evaluation
+  #### Evaluation
 
   	With the purpose of achieving this goal, we will develop a complete study about the dwellings with the information gathered by the smart meters and the weather data which comes from the _KNMI_.
   	
   	Once we get some results by applying _Machine Learning_ to the data in order to know if it is possible to get insight about these dwellings from the available data, we will compare the results from the different algorithms that can fit for our purpose and we will end with some conclusions.
   
-  ##### Conclusion
+  #### Conclusion
 
   	In this part of the chapter, the results of the relevant algorithms used are discussed.  
 
@@ -152,7 +152,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Testing_LSTM.png)
   
-  ##### Planning
+  #### Planning
 
   	During the project development, I have used an agile approach using SCRUM. For doing so we created an online environment in Trello where we have been setting the different tasks which had to be done. We divided the whole development in sprints of two weeks and every day we had a daily stand-up to discuss what was done and what will be worked on that day.
   	
@@ -162,7 +162,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Trello_dashboard.png)
   	
 * #### Domain Knowledge
-  ##### Introduction of the subject field
+  #### Introduction of the subject field
 
   	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. Moreover, in the Netherlands, there has been a growing concern with the use of natural gas, because of the exponential growth of earthquakes caused by the extraction of gas from the Groningen gas field. Accordingly, the urgency of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the built environment is responsible for 28% of the energy use from which 71% is for heating purposes. Currently, 87% of the buildings heating energy needs are covered with the use of natural gas. The technologies that currently exist which could help us reduce the use of natural gasses are easier to implement in the built environment rather than the industry since the industry often has higher temperature needs than the built environment. 
 
@@ -184,7 +184,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 	This research focuses on gaining insights on the dwelling characteristics by using machine learning algorithms on smart meter data in a combination with weather data. Specifically, the paper compares the accuracy of the models classifying the dwellings by type of heating system, the number of solar panels and the number of inhabitants.
 	
-  ##### Literature research
+  #### Literature research
 
   	During the first week of our project, I started by exploring the domain by doing literature research (see 1.4.1). I have looked at previously published papers that were available at well-known platforms such as ScienceDirect and TU Delft.  
 	I looked at researches that were previously done on the subject field, as well as researches that were done on smart meters. I did this to get more insights into previously researched topics that could have helped us to get more understanding of our subject field.   
@@ -201,7 +201,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	Next to that, we have also found a paper on smart meters (Pol Van Aubel & Erik Poll, Smart metering in the Netherlands: What, how, and why, (2019)). This paper helped us to get more understanding of smart meters.
   
-  ##### Explanation of terminology, jargon and definitions
+  #### Explanation of terminology, jargon and definitions
 
   	**Smart meter**
   	
@@ -222,7 +222,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		* WP = Heat Pump
   
 * #### Data Preprocessing
-  ##### Data exploration
+  #### Data exploration
     During the development of this project, I will be using data from three different resources:
 	  * _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
 	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consists of 120 houses. This dataset is not labeled, I will use it to feed our models with different data and see how they behave.
@@ -245,7 +245,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	The next step is to clean the dataset.
     
     
-  ##### Data cleaning
+  #### Data cleaning
   Once I explained the data that I am going to use, I will start cleaning it.
 
 	[EDA - Data Cleaning](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%202.%20Data%20Cleaning.ipynb)
@@ -258,7 +258,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	3. I deleted those dwellings which have quite less data (NaN and outliers) than the other ones ('H05', 'H10', 'H11', 'H14', 'H27', 'H30').
 	4. I deleted those records which have at least one NaN value to be able to compare every dwelling.
   
-  ##### Data preparation
+  #### Data preparation
   After cleaning the datasets, I will prepare the data to be inserted in the models.
   
   	[EDA - Data Preparation](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%203.%20Data%20Preparation.ipynb)
@@ -274,7 +274,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	[EDA - Data Preparation for LSTM](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%204.%20Data%20Preparation%20for%20LSTM.ipynb)
   : This notebook contains the data preparation process that has been followed to set the data that is going to be inserted on the LSTM RNN. This notebook follows a different process because every dataset needs to be balanced.
   
-  ##### Data explanation
+  #### Data explanation
   The data that I am going to use to feed the models consists of the combination of the energy delivery and consumption, the weather data from the _KNMI_ and the _dummy variables_ that have created.
 
   	Apart from that, as said in the previous section, the dataset is indexed by its timestamp and the interval is 15 minutes. I have created three different datasets to check which of them fits the best with the models. These are the following:
@@ -291,7 +291,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	* The dummy variables have been replaced by the mode of the interval.
   
   
-  ##### Data visualization
+  #### Data visualization
   Once I explained the data, I will visualize it in order to get a better insight into the process that we have followed from the raw data until the data that I will use in the models.
 
   	[EDA - Data Visualization](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%205.%20Data%20Visualization.ipynb)
@@ -329,7 +329,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	I will predict the **heating system type**, the **amount of inhabitants** who lives in the dwelling and the **amount of solar panels** which are installed on the dwelling.
 	
-	##### Selecting a model
+	#### Selecting a model
 	
 	As I previously said, I selected the **_K-Nearest Negihbors_** algorithm since it is a classification algorithm. In order for this model to work the data must have a notion of distance. In laymens terms, I need to be able to graph our data.
 	
@@ -337,7 +337,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	Once the data is able to be graphed, the _K-Nearest Negihbors_ algorithm will predict the target variable depending on the _n_ samples that surround it. This model will prove useful because, in essence, it looks at the neighboring data points to determine what this new data point will fall into.
 	
-	##### Configuring a model
+	#### Configuring a model
 	
 	With the purpose of creating different models with different configurations, I use a Pipeline, where I specify how to normalize the data, the algorithm to be used and its characteristics.
 
@@ -351,13 +351,13 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
     	* uniform: uniform weights. All points in each neighborhood are weighted equally.
     	* distance: weight points by the inverse of their distance. in this case, closer neighbors of a query point will have a greater influence than neighbors which are further away.
 	
-	##### Training a model
+	#### Training a model
 	
 	With the purpose of building and training the models, I use _GridSearchCV_. This library allows creating different models by setting different values for each parameter and is able to implement the cross-validation. The goal of cross-validation is to define a data set to test the model in the training phase in order to limit problems like overfitting or underfitting and get an insight on how the model will generalize to an independent data set.
 	
 	Once the models have tried the different possible configurations, it will return just the best one for each target variable.
 	
-	##### Evaluating a model
+	#### Evaluating a model
 	
 	These are the results obtained from the training process, as I have used a _GridSearchCV_, only the best models will be shown:
 	
@@ -376,7 +376,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		* _p_: 2
 		* _weights_: _distance_
 	
-	##### Visualizing the outcome of the model
+	#### Visualizing the outcome of the model
 	
 	Up to now that I have built and evaluated the models, I am going to predict the different target values of a test set and compare the results with the true values by using the confusion matrix.
 	
@@ -384,7 +384,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	As the confusion matrices shows, the model which predicts the heating system works the best when predicting _WP_, _E_ and _Zon_ get worse results because of the number of samples of each heating system; the model which predicts the nº of inhabitants works the best when predicting dwellings with 2 and 4 inhabitants and, the model which predicts the nº of solar panels works the best when predicting those dwellings that have installed between 10 and 14 solar panels.
 	
-	##### Global results
+	#### Global results
 	
 	These are the global results of every model that we have applied to the data:
 	
@@ -393,7 +393,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	As we can see, the model which got the best results is the LSTM RNN, this is because this neuronal network takes into account the previous results while it is learning. Furthermore, it also relates the outputs with the timestamp, which is crucial in the project since the data goes through time.
   
 * #### Communication
-  ##### Presentations
+  #### Presentations
 
   	During the whole development of the project, we have given several presentations with the purpose of explaining the last improvements that we have made, but also to get feedback and advice about how to continue working on the project. The table below shows all the presentation we have given during the course:
   	
@@ -419,7 +419,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	* [Closed presentation - Week 12](https://github.com/ecabab/THUAS/blob/master/Presentations/Dwelling%20Energy%20Insights%20-%20week%2012.pdf)
 
   
-  ##### Research paper
+  #### Research paper
 
 	Writing a research paper has the purpose of explaining its whole development to those people who are interested in this topic, from the research question until the results and conclusion. It has been the first time writing a research paper for me, so it has been a really good opportunity to learn how to do it.
 	

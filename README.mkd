@@ -162,7 +162,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	![Image of Testing](https://github.com/ecabab/THUAS/blob/master/Images/Trello_dashboard.png)
   	
 * #### Domain Knowledge
-  * **Introduction of the subject field**
+  ##### Introduction of the subject field
 
   	In the last few years, the European Commission has set various ambitious targets in order to reduce CO2 emissions. As a result of this, the Dutch government has been regulating the energy sector to move towards the use of green energy in order to avoid the use of natural gasses completely by the end of 2050. Moreover, in the Netherlands, there has been a growing concern with the use of natural gas, because of the exponential growth of earthquakes caused by the extraction of gas from the Groningen gas field. Accordingly, the urgency of reducing the use of natural gasses in dwellings is growing strongly. Although most energy in the Netherlands is used by industry, the built environment is responsible for 28% of the energy use from which 71% is for heating purposes. Currently, 87% of the buildings heating energy needs are covered with the use of natural gas. The technologies that currently exist which could help us reduce the use of natural gasses are easier to implement in the built environment rather than the industry since the industry often has higher temperature needs than the built environment. 
 
@@ -184,7 +184,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 
 	This research focuses on gaining insights on the dwelling characteristics by using machine learning algorithms on smart meter data in a combination with weather data. Specifically, the paper compares the accuracy of the models classifying the dwellings by type of heating system, the number of solar panels and the number of inhabitants.
 	
-  * **Literature research**
+  ##### Literature research
 
   	During the first week of our project, I started by exploring the domain by doing literature research (see 1.4.1). I have looked at previously published papers that were available at well-known platforms such as ScienceDirect and TU Delft.  
 	I looked at researches that were previously done on the subject field, as well as researches that were done on smart meters. I did this to get more insights into previously researched topics that could have helped us to get more understanding of our subject field.   
@@ -201,7 +201,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	
 	Next to that, we have also found a paper on smart meters (Pol Van Aubel & Erik Poll, Smart metering in the Netherlands: What, how, and why, (2019)). This paper helped us to get more understanding of smart meters.
   
-  * **Explanation of terminology, jargon and definitions**
+  ##### Explanation of terminology, jargon and definitions
 
   	**Smart meter**
   	
@@ -222,7 +222,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 		* WP = Heat Pump
   
 * #### Data Preprocessing
-  * **Data exploration:**
+  ##### Data exploration
     During the development of this project, I will be using data from three different resources:
 	  * _**Groene Mient**_: The first dataset belongs to Groene Mient, a neighborhood placed on The Hague (The Netherlands) which consists of 33 houses. This dataset is labeled and will be used to create the different models which allow us to make the predictions.
 	  * _**Anonymous neighborhood**_: The second dataset belongs to a neighborhood placed on The Netherlands which consists of 120 houses. This dataset is not labeled, I will use it to feed our models with different data and see how they behave.
@@ -245,7 +245,8 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	The next step is to clean the dataset.
     
     
-  * **Data cleaning:** Once I explained the data that I am going to use, I will start cleaning it.
+  ##### Data cleaning
+  Once I explained the data that I am going to use, I will start cleaning it.
 
 	[EDA - Data Cleaning](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%202.%20Data%20Cleaning.ipynb)
 	: This notebook contains the data cleaning process that has been followed to keep the usable data. It consists of the following steps:
@@ -257,7 +258,8 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	3. I deleted those dwellings which have quite less data (NaN and outliers) than the other ones ('H05', 'H10', 'H11', 'H14', 'H27', 'H30').
 	4. I deleted those records which have at least one NaN value to be able to compare every dwelling.
   
-  * **Data preparation:** After cleaning the datasets, I will prepare the data to be inserted in the models.
+  ##### Data preparation
+  After cleaning the datasets, I will prepare the data to be inserted in the models.
   
   	[EDA - Data Preparation](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%203.%20Data%20Preparation.ipynb)
   : This notebook contains the data preparation process that has been followed to set the data that is going to be inserted on the different models. It consists of the following steps:
@@ -272,7 +274,8 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	[EDA - Data Preparation for LSTM](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%204.%20Data%20Preparation%20for%20LSTM.ipynb)
   : This notebook contains the data preparation process that has been followed to set the data that is going to be inserted on the LSTM RNN. This notebook follows a different process because every dataset needs to be balanced.
   
-  * **Data explanation:** The data that I am going to use to feed the models consists of the combination of the energy delivery and consumption, the weather data from the _KNMI_ and the _dummy variables_ that have created.
+  ##### Data explanation
+  The data that I am going to use to feed the models consists of the combination of the energy delivery and consumption, the weather data from the _KNMI_ and the _dummy variables_ that have created.
 
   	Apart from that, as said in the previous section, the dataset is indexed by its timestamp and the interval is 15 minutes. I have created three different datasets to check which of them fits the best with the models. These are the following:
   
@@ -288,7 +291,8 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	* The dummy variables have been replaced by the mode of the interval.
   
   
-  * **Data visualization:** Once I explained the data, I will visualize it in order to get a better insight into the process that we have followed from the raw data until the data that I will use in the models.
+  ##### Data visualization
+  Once I explained the data, I will visualize it in order to get a better insight into the process that we have followed from the raw data until the data that I will use in the models.
 
   	[EDA - Data Visualization](https://github.com/ecabab/THUAS/blob/master/EDA/Emilio%20Caba%20-%20EDA%20-%205.%20Data%20Visualization.ipynb)
   : This notebook contains the data visualization process that has been followed to understand better the EDA (Exploratory Data Analysis) process done before. It consists of the following steps:
@@ -389,7 +393,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
 	As we can see, the model which got the best results is the LSTM RNN, this is because this neuronal network takes into account the previous results while it is learning. Furthermore, it also relates the outputs with the timestamp, which is crucial in the project since the data goes through time.
   
 * #### Communication
-  * **Presentations**
+  ##### Presentations
 
   	During the whole development of the project, we have given several presentations with the purpose of explaining the last improvements that we have made, but also to get feedback and advice about how to continue working on the project. The table below shows all the presentation we have given during the course:
   	
@@ -415,7 +419,7 @@ Besides the technical knowledge, I also learned how to deal with my colleges, sp
   	* [Closed presentation - Week 12](https://github.com/ecabab/THUAS/blob/master/Presentations/Dwelling%20Energy%20Insights%20-%20week%2012.pdf)
 
   
-  * **Research paper**
+  ##### Research paper
 
 	Writing a research paper has the purpose of explaining its whole development to those people who are interested in this topic, from the research question until the results and conclusion. It has been the first time writing a research paper for me, so it has been a really good opportunity to learn how to do it.
 	
